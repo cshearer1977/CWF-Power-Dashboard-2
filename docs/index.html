@@ -3,88 +3,121 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CWF Annual Generation Dashboard</title>
+  <title>CWF Annual Generation Dashboard | Global Energy Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Barlow+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
   <style>
+    /* GEM Visual Brand Guidelines (Apr 2026) + GEM data-viz style guide */
     :root {
       color-scheme: light;
-      --bg: #ffffff;
-      --fg: #111827;
-      --muted: #6b7280;
-      --card: #f9fafb;
-      --border: #e5e7eb;
-      --gem-teal: #016b83;
-      --ct-blue: #1d4ed8;
-      --warn-bg: #fff7ed;
-      --warn-fg: #9a3412;
+      --midnight:   #002430;
+      --navy:       #004A63;
+      --teal:       #016B83;
+      --mint:       #9DF7E5;
+      --orange:     #FE4F2D;
+      --warm-white: #F2F2EB;
+      --white:      #FFFFFF;
+      --text:       #3A4A50;   /* GEM grey: all body + chart text */
+      --muted:      #6E8C91;
+      --rule:       #DCE3E5;
+      --grid:       #CBCBCB;
+      --ct:         #087DA0;   /* Climate TRACE values (blue, per CWF convention) */
+      --font-brand: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+      --font-chart: "Barlow Semi Condensed", Helvetica, Arial, sans-serif;
     }
     * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 0; color: var(--fg); background: var(--bg); line-height: 1.45;
+      margin: 0; font-family: var(--font-brand); font-size: 16px; line-height: 1.45;
+      color: var(--text); background: var(--warm-white);
     }
-    header { padding: 24px 28px 12px; border-bottom: 1px solid var(--border); }
-    h1 { font-size: 20px; margin: 0 0 4px; color: var(--gem-teal); }
-    .subtitle { color: var(--muted); font-size: 13px; }
+    a { color: var(--teal); }
+
+    /* Header: navy band, as in GEM report/presentation covers */
+    header { background: var(--navy); color: var(--white); padding: 28px 32px 26px; }
+    .eyebrow { font-size: 14px; font-weight: 600; margin: 0 0 6px; color: var(--white); }
+    h1 { font-size: 30px; line-height: 1.2; font-weight: 700; margin: 0 0 8px; color: var(--mint); }
+    .subtitle { font-size: 16px; margin: 0; max-width: 820px; color: var(--white); opacity: .9; }
+
     .toolbar {
-      display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
-      padding: 14px 28px; border-bottom: 1px solid var(--border); background: var(--card);
+      display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+      padding: 14px 32px; background: var(--white); border-bottom: 1px solid var(--rule);
     }
-    .toolbar label { font-size: 13px; color: var(--muted); }
+    .toolbar label { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
     select {
-      font-size: 14px; padding: 6px 10px; border: 1px solid var(--border);
-      border-radius: 6px; background: white; color: var(--fg); min-width: 200px;
+      font: inherit; font-size: 15px; padding: 7px 12px; min-width: 210px;
+      border: 1px solid var(--grid); border-radius: 6px; background: var(--white); color: var(--text);
     }
-    .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+    select:focus-visible, .seg button:focus-visible, .btn:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+    .seg { display: inline-flex; border: 1px solid var(--teal); border-radius: 6px; overflow: hidden; }
     .seg button {
-      font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: white;
-      color: var(--fg); cursor: pointer;
+      font: inherit; font-size: 14px; font-weight: 700; padding: 7px 14px; border: 0;
+      background: var(--white); color: var(--teal); cursor: pointer;
     }
-    .seg button + button { border-left: 1px solid var(--border); }
-    .seg button.on { background: var(--gem-teal); color: white; }
-    .updated { margin-left: auto; color: var(--muted); font-size: 12px; }
-    main { padding: 20px 28px 40px; display: grid; gap: 16px; }
-    .card { border: 1px solid var(--border); border-radius: 10px; background: white; padding: 14px 16px; min-width: 0; }
-    .card h2 { font-size: 14px; margin: 0 0 2px; }
-    .card .source { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
-    .chart-wrap { position: relative; height: 380px; }
+    .seg button + button { border-left: 1px solid var(--teal); }
+    .seg button.on { background: var(--teal); color: var(--white); }
+    .updated { margin-left: auto; font-size: 14px; color: var(--muted); }
+
+    main { padding: 24px 32px 40px; display: grid; gap: 20px; max-width: 1280px; }
+    .card { background: var(--white); border-radius: 12px; padding: 22px 24px 20px; min-width: 0; }
+    .card h2 { font-size: 22px; line-height: 1.2; font-weight: 700; margin: 0 0 6px; color: var(--navy); }
+    .card .source { font-size: 16px; margin: 0 0 14px; }
+    .chart-wrap { position: relative; height: 400px; }
     .notice {
-      background: var(--warn-bg); color: var(--warn-fg); border-radius: 8px;
-      padding: 10px 12px; font-size: 13px; margin-bottom: 10px;
+      border-left: 4px solid var(--orange); background: var(--warm-white);
+      padding: 10px 14px; font-size: 14px; margin: 0 0 16px; border-radius: 0 6px 6px 0;
     }
     .notice:empty { display: none; }
+    .notice div + div { margin-top: 4px; }
+    .notes { font-size: 14px; margin-top: 12px; }
+    .notes p { margin: 0 0 4px; }
     .table-scroll { overflow-x: auto; }
-    table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
-    th, td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+    th, td { padding: 7px 10px; text-align: right; border-bottom: 1px solid var(--rule); white-space: nowrap; }
     th:first-child, td:first-child { text-align: left; }
-    thead th { color: var(--muted); font-weight: 600; }
-    tr.total td { font-weight: 600; border-top: 2px solid var(--fg); }
-    td.ct { color: var(--ct-blue); font-weight: 600; }
-    td.gap { color: #c0c4cc; }
-    th.partial { color: var(--warn-fg); }
-    .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
-    .legend-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
-    .legend-note .ct { color: var(--ct-blue); font-weight: 600; }
-    .hatch {
-      display: inline-block; width: 14px; height: 10px; vertical-align: -1px; margin-right: 4px;
-      background: repeating-linear-gradient(45deg, #9ca3af 0 2px, #fff 2px 4px); border: 1px solid #9ca3af;
+    thead th {
+      background: var(--teal); color: var(--white); font-size: 12px; font-weight: 700;
+      letter-spacing: .04em; text-transform: uppercase; border-bottom: 0;
     }
-    .footer { padding: 16px 28px 28px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); }
-    .footer p { margin: 0 0 8px; max-width: 900px; }
-    .footer a, .card a { color: var(--gem-teal); text-decoration: none; }
-    .footer a:hover, .card a:hover { text-decoration: underline; }
-    .empty { padding: 40px 0; text-align: center; color: var(--muted); font-size: 13px; }
+    thead th.partial { background: var(--navy); }
+    tr.total td { font-weight: 700; border-top: 2px solid var(--navy); border-bottom: 0; }
+    td.ct { color: var(--ct); font-weight: 700; }
+    td.gap { color: #A9B8BB; }
+    .swatch { display: inline-block; width: 12px; height: 12px; margin-right: 8px; vertical-align: -1px; }
+    .ct-label { color: var(--ct); font-weight: 700; }
+    .hatch {
+      display: inline-block; width: 16px; height: 12px; vertical-align: -1px; margin-right: 6px;
+      background: repeating-linear-gradient(45deg, var(--text) 0 2px, var(--white) 2px 5px); border: 1px solid var(--text);
+    }
+    .btn {
+      display: inline-block; margin-top: 16px; padding: 9px 16px; border-radius: 6px;
+      background: var(--orange); color: var(--white); font-weight: 700; font-size: 14px; text-decoration: none;
+    }
+    .btn:hover { filter: brightness(.95); }
+
+    footer { background: var(--midnight); color: var(--white); padding: 28px 32px 32px; font-size: 14px; }
+    footer .inner { max-width: 900px; }
+    footer p { margin: 0 0 10px; }
+    footer strong { color: var(--mint); }
+    footer a { color: var(--mint); }
+    footer .org { margin-top: 18px; font-weight: 700; }
+    .empty { padding: 40px 0; text-align: center; }
+
     @media (max-width: 640px) {
-      header, .toolbar, main, .footer { padding-left: 16px; padding-right: 16px; }
+      header, .toolbar, main, footer { padding-left: 16px; padding-right: 16px; }
+      h1 { font-size: 24px; }
       .updated { margin-left: 0; width: 100%; }
-      .chart-wrap { height: 300px; }
+      .chart-wrap { height: 320px; }
+      .card { padding: 18px 16px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CWF Annual Generation Dashboard</h1>
-    <div class="subtitle">Electricity generation by fuel, 2016–2025, for 15 countries. Ember data, gap-filled with Climate TRACE where Ember has no value.</div>
+    <p class="eyebrow">Global Energy Monitor (GEM)</p>
+    <h1>Annual electricity generation by fuel</h1>
+    <p class="subtitle">2016–2025, 15 countries. Ember data, with Climate TRACE estimates where Ember has no value for a fuel and year.</p>
   </header>
 
   <div class="toolbar">
@@ -100,45 +133,53 @@
   <main id="main">
     <section class="card">
       <h2 id="chart-title">Generation by fuel</h2>
-      <div class="source" id="chart-src">—</div>
+      <p class="source" id="chart-src">—</p>
       <div class="notice" id="notice"></div>
       <div class="chart-wrap"><canvas id="gen-chart"></canvas></div>
-      <div class="legend-note"><span class="hatch"></span>Hatched segments are Climate TRACE estimates. Years marked * are incomplete; shares are not shown for them.</div>
+      <div class="notes"><p><span class="hatch"></span>Hatched segments are Climate TRACE estimates. Years marked * are incomplete; shares are not shown for them.</p></div>
     </section>
 
     <section class="card">
       <h2>Generation (TWh)</h2>
-      <div class="source">Source: Ember. <span style="color:var(--ct-blue);font-weight:600">Blue values</span> are Climate TRACE (Ember has no value for that fuel and year). “—” = no data in either source.</div>
+      <p class="source">Source: Ember. <span class="ct-label">Blue values</span> are Climate TRACE estimates, used where Ember has no value for that fuel and year. “—” = no data in either source.</p>
       <div class="table-scroll"><table id="gen-table"></table></div>
-      <div class="legend-note" id="ct-note"></div>
-      <div class="legend-note"><a href="data/generation.csv" download>Download all countries (CSV)</a></div>
+      <div class="notes" id="ct-note"></div>
+      <a class="btn" href="data/generation.csv" download>Download data (CSV)</a>
     </section>
   </main>
 
-  <div class="footer">
-    <p><strong>Sources.</strong>
-      <a href="https://ember-energy.org/data/yearly-electricity-data/" target="_blank" rel="noopener">Ember yearly electricity data</a> (via the Ember API) is the primary source.
-      Where Ember has no value for a fuel in a given year, the dashboard uses
-      <a href="https://climatetrace.org" target="_blank" rel="noopener">Climate TRACE</a> plant-level activity, summed by country and primary fuel.
-    </p>
-    <p><strong>Caveats.</strong> Climate TRACE models emitting power plants only (coal, gas, oil and biomass), so it cannot fill solar, wind, hydro, nuclear or other renewables, and its plant-level asset data starts in 2021.
-      Its coverage of small and captive plants can be incomplete, so filled values may understate generation. Multi-fuel plants are assigned to their primary (first-listed) fuel; oil and other fossil plants are reported as “Other fossil”.
-      Shares are not shown for years marked *, since their totals are incomplete.</p>
-    <p>Data refreshed daily by a GitHub Actions workflow.</p>
-  </div>
+  <footer>
+    <div class="inner">
+      <p><strong>Sources.</strong>
+        <a href="https://ember-energy.org/data/yearly-electricity-data/" target="_blank" rel="noopener">Ember yearly electricity data</a> (via the Ember API) is the primary source.
+        Where Ember has no value for a fuel in a given year, the dashboard uses
+        <a href="https://climatetrace.org" target="_blank" rel="noopener">Climate TRACE</a> plant-level activity, summed by country and primary fuel.</p>
+      <p><strong>Caveats.</strong> Climate TRACE models emitting power plants only (coal, gas, oil and biomass), so it cannot fill solar, wind, hydro, nuclear or other renewables, and its plant-level asset data starts in 2021.
+        Its coverage of small and captive plants can be incomplete, so filled values may understate generation. Multi-fuel plants are assigned to their primary (first-listed) fuel; oil and other fossil plants are reported as “Other fossil”.
+        Shares are not shown for years marked *, since their totals are incomplete.</p>
+      <p>Data refreshed daily.</p>
+      <p class="org">Global Energy Monitor · <a href="https://globalenergymonitor.org" target="_blank" rel="noopener">globalenergymonitor.org</a></p>
+    </div>
+  </footer>
 
 <script>
+// GEM Color Guide: Global Integrated Power Tracker palette (fossil reds, renewable blues/greens).
 const FUEL_COLORS = {
-  "Solar":            "#f2b134",
-  "Wind":             "#5aa9e6",
-  "Hydro":            "#016b83",
-  "Bioenergy":        "#65bd8b",
-  "Other renewables": "#a3d9c9",
-  "Nuclear":          "#4a57a8",
-  "Gas":              "#fe4f2d",
-  "Coal":             "#3f3f46",
-  "Other fossil":     "#7f142a",
+  "Solar":            "#FFE366",  // yellow
+  "Wind":             "#65BD8B",  // green
+  "Hydro":            "#099ED8",  // blue
+  "Bioenergy":        "#A0AAE5",  // purple
+  "Other renewables": "#004F61",  // midnight green (geothermal)
+  "Nuclear":          "#4A57A8",  // indigo
+  "Gas":              "#CA4A50",  // clay red (oil & gas)
+  "Coal":             "#7F142A",  // deep red
+  "Other fossil":     "#F4B7B3",  // light fossil tint
 };
+
+const GEM_TEXT = "#3A4A50", GEM_GRID = "#CBCBCB";
+Chart.defaults.font.family = '"Barlow Semi Condensed", Helvetica, Arial, sans-serif';
+Chart.defaults.font.size = 15;
+Chart.defaults.color = GEM_TEXT;
 
 let chart, payload, mode = "twh";
 const patternCache = {};
@@ -191,25 +232,27 @@ function renderChart(c) {
       maintainAspectRatio: false,
       interaction: { mode: "index", intersect: false },
       scales: {
-        x: { stacked: true, grid: { display: false } },
+        x: { stacked: true, grid: { display: false }, border: { color: GEM_TEXT } },
         y: {
           stacked: true, beginAtZero: true,
+          grid: { color: GEM_GRID, lineWidth: 0.5 }, border: { display: false },
           max: mode === "pct" ? 100 : undefined,
-          title: { display: true, text: mode === "pct" ? "% of total generation" : "TWh" },
+          title: { display: true, text: mode === "pct" ? "% of total generation" : "TWh", font: { weight: "600" } },
         },
       },
       plugins: {
         legend: {
           position: "bottom",
           labels: {
-            boxWidth: 10,
+            boxWidth: 14, boxHeight: 14, padding: 16,
             generateLabels: ch => ch.data.datasets.map((d, i) => ({
               text: d.label, fillStyle: FUEL_COLORS[d.label], strokeStyle: FUEL_COLORS[d.label],
-              lineWidth: 0, hidden: !ch.isDatasetVisible(i), datasetIndex: i,
+              lineWidth: 0, fontColor: GEM_TEXT, hidden: !ch.isDatasetVisible(i), datasetIndex: i,
             })),
           },
         },
         tooltip: {
+          backgroundColor: "#002430", titleFont: { weight: "600" }, padding: 10,
           itemSort: (a, b) => b.datasetIndex - a.datasetIndex,
           filter: item => item.raw != null && item.raw !== 0,
           callbacks: {
@@ -257,7 +300,7 @@ function renderTable(c) {
   const note = document.getElementById("ct-note");
   if (c.ct_cells.length) {
     const parts = c.ct_cells.map(x => `${x.fuel} ${x.year} (${x.plants} plant${x.plants === 1 ? "" : "s"})`);
-    note.innerHTML = `<span class="ct">Climate TRACE values:</span> ${parts.join("; ")}. ` +
+    note.innerHTML = `<span class="ct-label">Climate TRACE values:</span> ${parts.join("; ")}. ` +
       `Sum of plant-level annual activity from the Climate TRACE v7 API.`;
   } else {
     note.textContent = "All values are Ember data.";

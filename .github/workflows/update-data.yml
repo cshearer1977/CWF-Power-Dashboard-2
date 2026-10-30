@@ -1,0 +1,70 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    # 06:45 UTC daily (off the top of the hour to avoid GitHub's cron queue)
+    - cron: "45 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch Ember (API)
+        env:
+          EMBER_API_KEY: ${{ secrets.EMBER_API_KEY }}
+        run: python scripts/fetch_ember.py
+
+      - name: Fetch Climate TRACE
+        run: python scripts/fetch_climate_trace.py
+
+      - name: Build dashboard data
+        run: python scripts/build_dashboard.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/generation.json docs/data/generation.csv
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: daily refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4

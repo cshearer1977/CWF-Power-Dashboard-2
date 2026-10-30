@@ -1,0 +1,1254 @@
+country,iso3,fuel,year,generation_twh,source
+Indonesia,IDN,Solar,2016,0.09,Ember
+Indonesia,IDN,Solar,2017,0.1,Ember
+Indonesia,IDN,Solar,2018,0.16,Ember
+Indonesia,IDN,Solar,2019,0.19,Ember
+Indonesia,IDN,Solar,2020,0.24,Ember
+Indonesia,IDN,Solar,2021,0.26,Ember
+Indonesia,IDN,Solar,2022,0.51,Ember
+Indonesia,IDN,Solar,2023,0.78,Ember
+Indonesia,IDN,Solar,2024,1.42,Ember
+Indonesia,IDN,Solar,2025,1.59,Ember
+Indonesia,IDN,Wind,2016,0.01,Ember
+Indonesia,IDN,Wind,2017,0.0,Ember
+Indonesia,IDN,Wind,2018,0.19,Ember
+Indonesia,IDN,Wind,2019,0.48,Ember
+Indonesia,IDN,Wind,2020,0.48,Ember
+Indonesia,IDN,Wind,2021,0.44,Ember
+Indonesia,IDN,Wind,2022,0.36,Ember
+Indonesia,IDN,Wind,2023,0.48,Ember
+Indonesia,IDN,Wind,2024,0.47,Ember
+Indonesia,IDN,Wind,2025,0.38,Ember
+Indonesia,IDN,Hydro,2016,25.24,Ember
+Indonesia,IDN,Hydro,2017,24.8,Ember
+Indonesia,IDN,Hydro,2018,28.15,Ember
+Indonesia,IDN,Hydro,2019,27.78,Ember
+Indonesia,IDN,Hydro,2020,30.88,Ember
+Indonesia,IDN,Hydro,2021,31.16,Ember
+Indonesia,IDN,Hydro,2022,33.47,Ember
+Indonesia,IDN,Hydro,2023,30.92,Ember
+Indonesia,IDN,Hydro,2024,33.35,Ember
+Indonesia,IDN,Hydro,2025,35.57,Ember
+Indonesia,IDN,Bioenergy,2016,17.63,Ember
+Indonesia,IDN,Bioenergy,2017,19.53,Ember
+Indonesia,IDN,Bioenergy,2018,20.45,Ember
+Indonesia,IDN,Bioenergy,2019,20.71,Ember
+Indonesia,IDN,Bioenergy,2020,21.09,Ember
+Indonesia,IDN,Bioenergy,2021,21.93,Ember
+Indonesia,IDN,Bioenergy,2022,21.96,Ember
+Indonesia,IDN,Bioenergy,2023,22.48,Ember
+Indonesia,IDN,Bioenergy,2024,23.17,Ember
+Indonesia,IDN,Bioenergy,2025,28.2,Ember
+Indonesia,IDN,Other renewables,2016,10.66,Ember
+Indonesia,IDN,Other renewables,2017,13.06,Ember
+Indonesia,IDN,Other renewables,2018,14.33,Ember
+Indonesia,IDN,Other renewables,2019,14.11,Ember
+Indonesia,IDN,Other renewables,2020,15.57,Ember
+Indonesia,IDN,Other renewables,2021,15.91,Ember
+Indonesia,IDN,Other renewables,2022,16.68,Ember
+Indonesia,IDN,Other renewables,2023,16.94,Ember
+Indonesia,IDN,Other renewables,2024,16.77,Ember
+Indonesia,IDN,Other renewables,2025,17.75,Ember
+Indonesia,IDN,Gas,2016,63.34,Ember
+Indonesia,IDN,Gas,2017,57.39,Ember
+Indonesia,IDN,Gas,2018,59.0,Ember
+Indonesia,IDN,Gas,2019,64.39,Ember
+Indonesia,IDN,Gas,2020,53.35,Ember
+Indonesia,IDN,Gas,2021,60.05,Ember
+Indonesia,IDN,Gas,2022,60.68,Ember
+Indonesia,IDN,Gas,2023,65.62,Ember
+Indonesia,IDN,Gas,2024,71.68,Ember
+Indonesia,IDN,Gas,2025,61.34,Ember
+Indonesia,IDN,Coal,2016,174.61,Ember
+Indonesia,IDN,Coal,2017,193.19,Ember
+Indonesia,IDN,Coal,2018,213.28,Ember
+Indonesia,IDN,Coal,2019,237.5,Ember
+Indonesia,IDN,Coal,2020,245.38,Ember
+Indonesia,IDN,Coal,2021,263.35,Ember
+Indonesia,IDN,Coal,2022,294.7,Ember
+Indonesia,IDN,Coal,2023,324.38,Ember
+Indonesia,IDN,Coal,2024,347.09,Ember
+Indonesia,IDN,Coal,2025,366.46,Ember
+Indonesia,IDN,Other fossil,2016,27.0,Ember
+Indonesia,IDN,Other fossil,2017,25.05,Ember
+Indonesia,IDN,Other fossil,2018,24.15,Ember
+Indonesia,IDN,Other fossil,2019,16.79,Ember
+Indonesia,IDN,Other fossil,2020,12.98,Ember
+Indonesia,IDN,Other fossil,2021,12.87,Ember
+Indonesia,IDN,Other fossil,2022,12.31,Ember
+Indonesia,IDN,Other fossil,2023,12.78,Ember
+Indonesia,IDN,Other fossil,2024,13.32,Ember
+Indonesia,IDN,Other fossil,2025,16.91,Ember
+Pakistan,PAK,Solar,2016,0.68,Ember
+Pakistan,PAK,Solar,2017,0.92,Ember
+Pakistan,PAK,Solar,2018,0.92,Ember
+Pakistan,PAK,Solar,2019,2.61,Ember
+Pakistan,PAK,Solar,2020,4.1,Ember
+Pakistan,PAK,Solar,2021,5.79,Ember
+Pakistan,PAK,Solar,2022,7.72,Ember
+Pakistan,PAK,Solar,2023,11.35,Ember
+Pakistan,PAK,Solar,2024,19.83,Ember
+Pakistan,PAK,Solar,2025,36.6,Ember
+Pakistan,PAK,Wind,2016,1.33,Ember
+Pakistan,PAK,Wind,2017,2.1,Ember
+Pakistan,PAK,Wind,2018,3.16,Ember
+Pakistan,PAK,Wind,2019,2.88,Ember
+Pakistan,PAK,Wind,2020,2.89,Ember
+Pakistan,PAK,Wind,2021,3.74,Ember
+Pakistan,PAK,Wind,2022,4.34,Ember
+Pakistan,PAK,Wind,2023,4.05,Ember
+Pakistan,PAK,Wind,2024,3.17,Ember
+Pakistan,PAK,Wind,2025,3.74,Ember
+Pakistan,PAK,Hydro,2016,32.18,Ember
+Pakistan,PAK,Hydro,2017,27.92,Ember
+Pakistan,PAK,Hydro,2018,27.34,Ember
+Pakistan,PAK,Hydro,2019,33.58,Ember
+Pakistan,PAK,Hydro,2020,33.57,Ember
+Pakistan,PAK,Hydro,2021,33.13,Ember
+Pakistan,PAK,Hydro,2022,34.67,Ember
+Pakistan,PAK,Hydro,2023,37.99,Ember
+Pakistan,PAK,Hydro,2024,38.36,Ember
+Pakistan,PAK,Hydro,2025,39.44,Ember
+Pakistan,PAK,Bioenergy,2016,1.66,Ember
+Pakistan,PAK,Bioenergy,2017,1.7,Ember
+Pakistan,PAK,Bioenergy,2018,1.71,Ember
+Pakistan,PAK,Bioenergy,2019,1.71,Ember
+Pakistan,PAK,Bioenergy,2020,0.64,Ember
+Pakistan,PAK,Bioenergy,2021,0.77,Ember
+Pakistan,PAK,Bioenergy,2022,0.84,Ember
+Pakistan,PAK,Bioenergy,2023,0.7,Ember
+Pakistan,PAK,Bioenergy,2024,0.75,Ember
+Pakistan,PAK,Bioenergy,2025,0.6,Ember
+Pakistan,PAK,Nuclear,2016,5.44,Ember
+Pakistan,PAK,Nuclear,2017,8.11,Ember
+Pakistan,PAK,Nuclear,2018,9.29,Ember
+Pakistan,PAK,Nuclear,2019,9.07,Ember
+Pakistan,PAK,Nuclear,2020,10.08,Ember
+Pakistan,PAK,Nuclear,2021,14.26,Ember
+Pakistan,PAK,Nuclear,2022,22.57,Ember
+Pakistan,PAK,Nuclear,2023,22.73,Ember
+Pakistan,PAK,Nuclear,2024,23.17,Ember
+Pakistan,PAK,Nuclear,2025,24.0,Ember
+Pakistan,PAK,Gas,2016,41.43,Ember
+Pakistan,PAK,Gas,2017,49.2,Ember
+Pakistan,PAK,Gas,2018,57.44,Ember
+Pakistan,PAK,Gas,2019,46.02,Ember
+Pakistan,PAK,Gas,2020,47.75,Ember
+Pakistan,PAK,Gas,2021,49.07,Ember
+Pakistan,PAK,Gas,2022,45.27,Ember
+Pakistan,PAK,Gas,2023,43.8,Ember
+Pakistan,PAK,Gas,2024,42.27,Ember
+Pakistan,PAK,Gas,2025,39.34,Ember
+Pakistan,PAK,Coal,2016,0.62,Ember
+Pakistan,PAK,Coal,2017,10.91,Ember
+Pakistan,PAK,Coal,2018,15.77,Ember
+Pakistan,PAK,Coal,2019,25.86,Ember
+Pakistan,PAK,Coal,2020,26.7,Ember
+Pakistan,PAK,Coal,2021,26.73,Ember
+Pakistan,PAK,Coal,2022,23.33,Ember
+Pakistan,PAK,Coal,2023,22.28,Ember
+Pakistan,PAK,Coal,2024,20.2,Ember
+Pakistan,PAK,Coal,2025,24.75,Ember
+Pakistan,PAK,Other fossil,2016,39.56,Ember
+Pakistan,PAK,Other fossil,2017,29.5,Ember
+Pakistan,PAK,Other fossil,2018,13.39,Ember
+Pakistan,PAK,Other fossil,2019,13.24,Ember
+Pakistan,PAK,Other fossil,2020,9.84,Ember
+Pakistan,PAK,Other fossil,2021,14.83,Ember
+Pakistan,PAK,Other fossil,2022,13.27,Ember
+Pakistan,PAK,Other fossil,2023,5.11,Ember
+Pakistan,PAK,Other fossil,2024,3.26,Ember
+Pakistan,PAK,Other fossil,2025,2.59,Ember
+Philippines,PHL,Solar,2016,1.1,Ember
+Philippines,PHL,Solar,2017,1.2,Ember
+Philippines,PHL,Solar,2018,1.25,Ember
+Philippines,PHL,Solar,2019,1.25,Ember
+Philippines,PHL,Solar,2020,1.37,Ember
+Philippines,PHL,Solar,2021,1.47,Ember
+Philippines,PHL,Solar,2022,1.82,Ember
+Philippines,PHL,Solar,2023,1.82,Ember
+Philippines,PHL,Solar,2024,2.08,Ember
+Philippines,PHL,Solar,2025,3.0,Ember
+Philippines,PHL,Wind,2016,0.98,Ember
+Philippines,PHL,Wind,2017,1.09,Ember
+Philippines,PHL,Wind,2018,1.15,Ember
+Philippines,PHL,Wind,2019,1.04,Ember
+Philippines,PHL,Wind,2020,1.03,Ember
+Philippines,PHL,Wind,2021,1.28,Ember
+Philippines,PHL,Wind,2022,1.06,Ember
+Philippines,PHL,Wind,2023,1.35,Ember
+Philippines,PHL,Wind,2024,1.5,Ember
+Philippines,PHL,Wind,2025,1.46,Ember
+Philippines,PHL,Hydro,2016,8.11,Ember
+Philippines,PHL,Hydro,2017,9.61,Ember
+Philippines,PHL,Hydro,2018,9.38,Ember
+Philippines,PHL,Hydro,2019,8.03,Ember
+Philippines,PHL,Hydro,2020,7.19,Ember
+Philippines,PHL,Hydro,2021,9.19,Ember
+Philippines,PHL,Hydro,2022,10.09,Ember
+Philippines,PHL,Hydro,2023,10.09,Ember
+Philippines,PHL,Hydro,2024,10.09,Ember
+Philippines,PHL,Hydro,2025,12.69,Ember
+Philippines,PHL,Bioenergy,2016,0.72,Ember
+Philippines,PHL,Bioenergy,2017,1.0,Ember
+Philippines,PHL,Bioenergy,2018,1.09,Ember
+Philippines,PHL,Bioenergy,2019,1.03,Ember
+Philippines,PHL,Bioenergy,2020,1.25,Ember
+Philippines,PHL,Bioenergy,2021,1.45,Ember
+Philippines,PHL,Bioenergy,2022,1.32,Ember
+Philippines,PHL,Bioenergy,2023,1.32,Ember
+Philippines,PHL,Bioenergy,2024,1.32,Ember
+Philippines,PHL,Bioenergy,2025,1.46,Ember
+Philippines,PHL,Other renewables,2016,11.07,Ember
+Philippines,PHL,Other renewables,2017,10.27,Ember
+Philippines,PHL,Other renewables,2018,10.44,Ember
+Philippines,PHL,Other renewables,2019,10.69,Ember
+Philippines,PHL,Other renewables,2020,10.76,Ember
+Philippines,PHL,Other renewables,2021,10.02,Ember
+Philippines,PHL,Other renewables,2022,10.43,Ember
+Philippines,PHL,Other renewables,2023,10.43,Ember
+Philippines,PHL,Other renewables,2024,10.43,Ember
+Philippines,PHL,Other renewables,2025,10.1,Ember
+Philippines,PHL,Nuclear,2016,0.0,Ember
+Philippines,PHL,Nuclear,2017,0.0,Ember
+Philippines,PHL,Nuclear,2018,0.0,Ember
+Philippines,PHL,Nuclear,2019,0.0,Ember
+Philippines,PHL,Nuclear,2020,0.0,Ember
+Philippines,PHL,Nuclear,2021,0.0,Ember
+Philippines,PHL,Nuclear,2022,0.0,Ember
+Philippines,PHL,Nuclear,2023,0.0,Ember
+Philippines,PHL,Nuclear,2024,0.0,Ember
+Philippines,PHL,Nuclear,2025,0.0,Ember
+Philippines,PHL,Gas,2016,19.85,Ember
+Philippines,PHL,Gas,2017,20.55,Ember
+Philippines,PHL,Gas,2018,21.33,Ember
+Philippines,PHL,Gas,2019,22.35,Ember
+Philippines,PHL,Gas,2020,19.5,Ember
+Philippines,PHL,Gas,2021,18.68,Ember
+Philippines,PHL,Gas,2022,17.88,Ember
+Philippines,PHL,Gas,2023,16.67,Ember
+Philippines,PHL,Gas,2024,18.05,Ember
+Philippines,PHL,Gas,2025,21.26,Ember
+Philippines,PHL,Coal,2016,43.3,Ember
+Philippines,PHL,Coal,2017,46.85,Ember
+Philippines,PHL,Coal,2018,51.93,Ember
+Philippines,PHL,Coal,2019,57.89,Ember
+Philippines,PHL,Coal,2020,58.18,Ember
+Philippines,PHL,Coal,2021,62.05,Ember
+Philippines,PHL,Coal,2022,66.43,Ember
+Philippines,PHL,Coal,2023,73.75,Ember
+Philippines,PHL,Coal,2024,79.36,Ember
+Philippines,PHL,Coal,2025,72.23,Ember
+Philippines,PHL,Other fossil,2016,5.66,Ember
+Philippines,PHL,Other fossil,2017,3.79,Ember
+Philippines,PHL,Other fossil,2018,3.17,Ember
+Philippines,PHL,Other fossil,2019,3.75,Ember
+Philippines,PHL,Other fossil,2020,2.47,Ember
+Philippines,PHL,Other fossil,2021,1.62,Ember
+Philippines,PHL,Other fossil,2022,2.52,Ember
+Philippines,PHL,Other fossil,2023,1.3,Ember
+Philippines,PHL,Other fossil,2024,1.34,Ember
+Philippines,PHL,Other fossil,2025,0.96,Ember
+Thailand,THA,Solar,2016,3.55,Ember
+Thailand,THA,Solar,2017,4.54,Ember
+Thailand,THA,Solar,2018,4.54,Ember
+Thailand,THA,Solar,2019,5.15,Ember
+Thailand,THA,Solar,2020,5.03,Ember
+Thailand,THA,Solar,2021,5.01,Ember
+Thailand,THA,Solar,2022,5.15,Ember
+Thailand,THA,Solar,2023,5.44,Ember
+Thailand,THA,Solar,2024,9.1,Ember
+Thailand,THA,Solar,2025,9.99,Ember
+Thailand,THA,Wind,2016,0.38,Ember
+Thailand,THA,Wind,2017,1.11,Ember
+Thailand,THA,Wind,2018,1.64,Ember
+Thailand,THA,Wind,2019,3.67,Ember
+Thailand,THA,Wind,2020,3.22,Ember
+Thailand,THA,Wind,2021,3.55,Ember
+Thailand,THA,Wind,2022,3.04,Ember
+Thailand,THA,Wind,2023,3.52,Ember
+Thailand,THA,Wind,2024,3.5,Ember
+Thailand,THA,Wind,2025,3.56,Ember
+Thailand,THA,Hydro,2016,3.65,Ember
+Thailand,THA,Hydro,2017,4.83,Ember
+Thailand,THA,Hydro,2018,7.78,Ember
+Thailand,THA,Hydro,2019,6.45,Ember
+Thailand,THA,Hydro,2020,4.68,Ember
+Thailand,THA,Hydro,2021,4.68,Ember
+Thailand,THA,Hydro,2022,6.79,Ember
+Thailand,THA,Hydro,2023,6.76,Ember
+Thailand,THA,Hydro,2024,6.61,Ember
+Thailand,THA,Hydro,2025,7.83,Ember
+Thailand,THA,Bioenergy,2016,16.3,Ember
+Thailand,THA,Bioenergy,2017,17.92,Ember
+Thailand,THA,Bioenergy,2018,21.17,Ember
+Thailand,THA,Bioenergy,2019,23.21,Ember
+Thailand,THA,Bioenergy,2020,21.27,Ember
+Thailand,THA,Bioenergy,2021,23.56,Ember
+Thailand,THA,Bioenergy,2022,24.45,Ember
+Thailand,THA,Bioenergy,2023,28.8,Ember
+Thailand,THA,Bioenergy,2024,28.18,Ember
+Thailand,THA,Bioenergy,2025,22.07,Ember
+Thailand,THA,Gas,2016,126.15,Ember
+Thailand,THA,Gas,2017,121.04,Ember
+Thailand,THA,Gas,2018,116.26,Ember
+Thailand,THA,Gas,2019,121.84,Ember
+Thailand,THA,Gas,2020,113.86,Ember
+Thailand,THA,Gas,2021,113.11,Ember
+Thailand,THA,Gas,2022,114.64,Ember
+Thailand,THA,Gas,2023,129.4,Ember
+Thailand,THA,Gas,2024,136.37,Ember
+Thailand,THA,Gas,2025,123.33,Ember
+Thailand,THA,Coal,2016,37.11,Ember
+Thailand,THA,Coal,2017,35.73,Ember
+Thailand,THA,Coal,2018,35.8,Ember
+Thailand,THA,Coal,2019,35.83,Ember
+Thailand,THA,Coal,2020,36.82,Ember
+Thailand,THA,Coal,2021,36.06,Ember
+Thailand,THA,Coal,2022,35.52,Ember
+Thailand,THA,Coal,2023,30.43,Ember
+Thailand,THA,Coal,2024,33.26,Ember
+Thailand,THA,Coal,2025,33.58,Ember
+Thailand,THA,Other fossil,2016,0.49,Ember
+Thailand,THA,Other fossil,2017,0.33,Ember
+Thailand,THA,Other fossil,2018,0.18,Ember
+Thailand,THA,Other fossil,2019,1.12,Ember
+Thailand,THA,Other fossil,2020,0.72,Ember
+Thailand,THA,Other fossil,2021,0.72,Ember
+Thailand,THA,Other fossil,2022,1.73,Ember
+Thailand,THA,Other fossil,2023,0.89,Ember
+Thailand,THA,Other fossil,2024,0.28,Ember
+Thailand,THA,Other fossil,2025,0.13,Ember
+Vietnam,VNM,Solar,2016,0.0,Ember
+Vietnam,VNM,Solar,2017,0.01,Ember
+Vietnam,VNM,Solar,2018,0.02,Ember
+Vietnam,VNM,Solar,2019,4.82,Ember
+Vietnam,VNM,Solar,2020,11.2,Ember
+Vietnam,VNM,Solar,2021,27.52,Ember
+Vietnam,VNM,Solar,2022,27.94,Ember
+Vietnam,VNM,Solar,2023,31.1,Ember
+Vietnam,VNM,Solar,2024,32.91,Ember
+Vietnam,VNM,Solar,2025,33.85,Ember
+Vietnam,VNM,Wind,2016,0.2,Ember
+Vietnam,VNM,Wind,2017,0.35,Ember
+Vietnam,VNM,Wind,2018,0.49,Ember
+Vietnam,VNM,Wind,2019,0.72,Ember
+Vietnam,VNM,Wind,2020,0.98,Ember
+Vietnam,VNM,Wind,2021,3.34,Ember
+Vietnam,VNM,Wind,2022,9.09,Ember
+Vietnam,VNM,Wind,2023,11.59,Ember
+Vietnam,VNM,Wind,2024,12.75,Ember
+Vietnam,VNM,Wind,2025,14.65,Ember
+Vietnam,VNM,Hydro,2016,63.94,Ember
+Vietnam,VNM,Hydro,2017,85.94,Ember
+Vietnam,VNM,Hydro,2018,83.08,Ember
+Vietnam,VNM,Hydro,2019,66.12,Ember
+Vietnam,VNM,Hydro,2020,72.87,Ember
+Vietnam,VNM,Hydro,2021,78.67,Ember
+Vietnam,VNM,Hydro,2022,95.91,Ember
+Vietnam,VNM,Hydro,2023,80.62,Ember
+Vietnam,VNM,Hydro,2024,88.72,Ember
+Vietnam,VNM,Hydro,2025,101.83,Ember
+Vietnam,VNM,Bioenergy,2016,0.12,Ember
+Vietnam,VNM,Bioenergy,2017,0.21,Ember
+Vietnam,VNM,Bioenergy,2018,0.49,Ember
+Vietnam,VNM,Bioenergy,2019,0.35,Ember
+Vietnam,VNM,Bioenergy,2020,0.34,Ember
+Vietnam,VNM,Bioenergy,2021,0.32,Ember
+Vietnam,VNM,Bioenergy,2022,0.38,Ember
+Vietnam,VNM,Bioenergy,2023,0.87,Ember
+Vietnam,VNM,Bioenergy,2024,1.03,Ember
+Vietnam,VNM,Bioenergy,2025,1.18,Ember
+Vietnam,VNM,Nuclear,2016,0.0,Ember
+Vietnam,VNM,Nuclear,2017,0.0,Ember
+Vietnam,VNM,Nuclear,2018,0.0,Ember
+Vietnam,VNM,Nuclear,2019,0.0,Ember
+Vietnam,VNM,Nuclear,2020,0.0,Ember
+Vietnam,VNM,Nuclear,2021,0.0,Ember
+Vietnam,VNM,Nuclear,2022,0.0,Ember
+Vietnam,VNM,Nuclear,2023,0.0,Ember
+Vietnam,VNM,Nuclear,2024,0.0,Ember
+Vietnam,VNM,Nuclear,2025,0.0,Ember
+Vietnam,VNM,Gas,2016,45.36,Ember
+Vietnam,VNM,Gas,2017,40.35,Ember
+Vietnam,VNM,Gas,2018,40.7,Ember
+Vietnam,VNM,Gas,2019,42.51,Ember
+Vietnam,VNM,Gas,2020,34.66,Ember
+Vietnam,VNM,Gas,2021,26.31,Ember
+Vietnam,VNM,Gas,2022,29.22,Ember
+Vietnam,VNM,Gas,2023,26.36,Ember
+Vietnam,VNM,Gas,2024,21.83,Ember
+Vietnam,VNM,Gas,2025,19.68,Ember
+Vietnam,VNM,Coal,2016,68.35,Ember
+Vietnam,VNM,Coal,2017,67.71,Ember
+Vietnam,VNM,Coal,2018,91.65,Ember
+Vietnam,VNM,Coal,2019,120.16,Ember
+Vietnam,VNM,Coal,2020,122.53,Ember
+Vietnam,VNM,Coal,2021,118.03,Ember
+Vietnam,VNM,Coal,2022,104.04,Ember
+Vietnam,VNM,Coal,2023,129.76,Ember
+Vietnam,VNM,Coal,2024,152.78,Ember
+Vietnam,VNM,Coal,2025,157.24,Ember
+Vietnam,VNM,Other fossil,2016,1.18,Ember
+Vietnam,VNM,Other fossil,2017,0.15,Ember
+Vietnam,VNM,Other fossil,2018,0.75,Ember
+Vietnam,VNM,Other fossil,2019,2.21,Ember
+Vietnam,VNM,Other fossil,2020,1.86,Ember
+Vietnam,VNM,Other fossil,2021,0.79,Ember
+Vietnam,VNM,Other fossil,2022,0.72,Ember
+Vietnam,VNM,Other fossil,2023,1.7,Ember
+Vietnam,VNM,Other fossil,2024,0.62,Ember
+Vietnam,VNM,Other fossil,2025,0.62,Ember
+Brazil,BRA,Solar,2016,0.08,Ember
+Brazil,BRA,Solar,2017,0.83,Ember
+Brazil,BRA,Solar,2018,3.46,Ember
+Brazil,BRA,Solar,2019,6.66,Ember
+Brazil,BRA,Solar,2020,10.75,Ember
+Brazil,BRA,Solar,2021,16.75,Ember
+Brazil,BRA,Solar,2022,30.13,Ember
+Brazil,BRA,Solar,2023,50.63,Ember
+Brazil,BRA,Solar,2024,70.67,Ember
+Brazil,BRA,Solar,2025,88.02,Ember
+Brazil,BRA,Wind,2016,33.49,Ember
+Brazil,BRA,Wind,2017,42.37,Ember
+Brazil,BRA,Wind,2018,48.48,Ember
+Brazil,BRA,Wind,2019,55.99,Ember
+Brazil,BRA,Wind,2020,57.05,Ember
+Brazil,BRA,Wind,2021,72.29,Ember
+Brazil,BRA,Wind,2022,81.63,Ember
+Brazil,BRA,Wind,2023,95.8,Ember
+Brazil,BRA,Wind,2024,107.65,Ember
+Brazil,BRA,Wind,2025,115.84,Ember
+Brazil,BRA,Hydro,2016,380.91,Ember
+Brazil,BRA,Hydro,2017,370.91,Ember
+Brazil,BRA,Hydro,2018,388.97,Ember
+Brazil,BRA,Hydro,2019,397.88,Ember
+Brazil,BRA,Hydro,2020,396.38,Ember
+Brazil,BRA,Hydro,2021,362.82,Ember
+Brazil,BRA,Hydro,2022,427.11,Ember
+Brazil,BRA,Hydro,2023,426.0,Ember
+Brazil,BRA,Hydro,2024,421.8,Ember
+Brazil,BRA,Hydro,2025,397.9,Ember
+Brazil,BRA,Bioenergy,2016,51.34,Ember
+Brazil,BRA,Bioenergy,2017,52.91,Ember
+Brazil,BRA,Bioenergy,2018,54.38,Ember
+Brazil,BRA,Bioenergy,2019,54.92,Ember
+Brazil,BRA,Bioenergy,2020,58.74,Ember
+Brazil,BRA,Bioenergy,2021,56.01,Ember
+Brazil,BRA,Bioenergy,2022,55.02,Ember
+Brazil,BRA,Bioenergy,2023,57.76,Ember
+Brazil,BRA,Bioenergy,2024,61.43,Ember
+Brazil,BRA,Bioenergy,2025,61.6,Ember
+Brazil,BRA,Nuclear,2016,15.86,Ember
+Brazil,BRA,Nuclear,2017,15.74,Ember
+Brazil,BRA,Nuclear,2018,15.67,Ember
+Brazil,BRA,Nuclear,2019,16.13,Ember
+Brazil,BRA,Nuclear,2020,14.05,Ember
+Brazil,BRA,Nuclear,2021,14.7,Ember
+Brazil,BRA,Nuclear,2022,14.56,Ember
+Brazil,BRA,Nuclear,2023,14.5,Ember
+Brazil,BRA,Nuclear,2024,15.77,Ember
+Brazil,BRA,Nuclear,2025,15.8,Ember
+Brazil,BRA,Gas,2016,56.48,Ember
+Brazil,BRA,Gas,2017,65.59,Ember
+Brazil,BRA,Gas,2018,54.62,Ember
+Brazil,BRA,Gas,2019,65.96,Ember
+Brazil,BRA,Gas,2020,59.48,Ember
+Brazil,BRA,Gas,2021,86.96,Ember
+Brazil,BRA,Gas,2022,42.11,Ember
+Brazil,BRA,Gas,2023,38.59,Ember
+Brazil,BRA,Gas,2024,47.79,Ember
+Brazil,BRA,Gas,2025,59.4,Ember
+Brazil,BRA,Coal,2016,25.67,Ember
+Brazil,BRA,Coal,2017,22.85,Ember
+Brazil,BRA,Coal,2018,20.8,Ember
+Brazil,BRA,Coal,2019,21.68,Ember
+Brazil,BRA,Coal,2020,17.75,Ember
+Brazil,BRA,Coal,2021,24.24,Ember
+Brazil,BRA,Coal,2022,14.4,Ember
+Brazil,BRA,Coal,2023,13.31,Ember
+Brazil,BRA,Coal,2024,14.13,Ember
+Brazil,BRA,Coal,2025,15.62,Ember
+Brazil,BRA,Other fossil,2016,15.06,Ember
+Brazil,BRA,Other fossil,2017,18.12,Ember
+Brazil,BRA,Other fossil,2018,15.01,Ember
+Brazil,BRA,Other fossil,2019,14.12,Ember
+Brazil,BRA,Other fossil,2020,14.56,Ember
+Brazil,BRA,Other fossil,2021,22.63,Ember
+Brazil,BRA,Other fossil,2022,12.2,Ember
+Brazil,BRA,Other fossil,2023,11.53,Ember
+Brazil,BRA,Other fossil,2024,12.1,Ember
+Brazil,BRA,Other fossil,2025,9.51,Ember
+Colombia,COL,Solar,2016,0.01,Ember
+Colombia,COL,Solar,2017,0.01,Ember
+Colombia,COL,Solar,2018,0.02,Ember
+Colombia,COL,Solar,2019,0.13,Ember
+Colombia,COL,Solar,2020,0.19,Ember
+Colombia,COL,Solar,2021,0.33,Ember
+Colombia,COL,Solar,2022,0.63,Ember
+Colombia,COL,Solar,2023,1.33,Ember
+Colombia,COL,Solar,2024,3.43,Ember
+Colombia,COL,Solar,2025,4.6,Ember
+Colombia,COL,Wind,2016,0.05,Ember
+Colombia,COL,Wind,2017,0.0,Ember
+Colombia,COL,Wind,2018,0.04,Ember
+Colombia,COL,Wind,2019,0.06,Ember
+Colombia,COL,Wind,2020,0.01,Ember
+Colombia,COL,Wind,2021,0.06,Ember
+Colombia,COL,Wind,2022,0.07,Ember
+Colombia,COL,Wind,2023,0.2,Ember
+Colombia,COL,Wind,2024,0.14,Ember
+Colombia,COL,Wind,2025,0.15,Ember
+Colombia,COL,Hydro,2016,48.46,Ember
+Colombia,COL,Hydro,2017,60.64,Ember
+Colombia,COL,Hydro,2018,58.19,Ember
+Colombia,COL,Hydro,2019,52.98,Ember
+Colombia,COL,Hydro,2020,48.44,Ember
+Colombia,COL,Hydro,2021,60.7,Ember
+Colombia,COL,Hydro,2022,58.73,Ember
+Colombia,COL,Hydro,2023,54.23,Ember
+Colombia,COL,Hydro,2024,48.9,Ember
+Colombia,COL,Hydro,2025,62.5,Ember
+Colombia,COL,Bioenergy,2016,1.46,Ember
+Colombia,COL,Bioenergy,2017,1.42,Ember
+Colombia,COL,Bioenergy,2018,1.45,Ember
+Colombia,COL,Bioenergy,2019,1.57,Ember
+Colombia,COL,Bioenergy,2020,2.15,Ember
+Colombia,COL,Bioenergy,2021,2.24,Ember
+Colombia,COL,Bioenergy,2022,2.18,Ember
+Colombia,COL,Bioenergy,2023,0.954,Climate TRACE
+Colombia,COL,Bioenergy,2024,2.22,Ember
+Colombia,COL,Bioenergy,2025,2.33,Ember
+Colombia,COL,Other renewables,2016,0.0,Ember
+Colombia,COL,Other renewables,2017,0.0,Ember
+Colombia,COL,Other renewables,2018,0.0,Ember
+Colombia,COL,Other renewables,2019,0.0,Ember
+Colombia,COL,Other renewables,2020,0.0,Ember
+Colombia,COL,Other renewables,2021,0.0,Ember
+Colombia,COL,Other renewables,2022,0.0,Ember
+Colombia,COL,Other renewables,2023,0.0,Ember
+Colombia,COL,Other renewables,2024,0.0,Ember
+Colombia,COL,Other renewables,2025,0.0,Ember
+Colombia,COL,Nuclear,2016,0.0,Ember
+Colombia,COL,Nuclear,2017,0.0,Ember
+Colombia,COL,Nuclear,2018,0.0,Ember
+Colombia,COL,Nuclear,2019,0.0,Ember
+Colombia,COL,Nuclear,2020,0.0,Ember
+Colombia,COL,Nuclear,2021,0.0,Ember
+Colombia,COL,Nuclear,2022,0.0,Ember
+Colombia,COL,Nuclear,2023,0.0,Ember
+Colombia,COL,Nuclear,2024,0.0,Ember
+Colombia,COL,Nuclear,2025,0.0,Ember
+Colombia,COL,Gas,2016,15.9,Ember
+Colombia,COL,Gas,2017,11.01,Ember
+Colombia,COL,Gas,2018,11.62,Ember
+Colombia,COL,Gas,2019,13.16,Ember
+Colombia,COL,Gas,2020,15.19,Ember
+Colombia,COL,Gas,2021,13.76,Ember
+Colombia,COL,Gas,2022,13.49,Ember
+Colombia,COL,Gas,2023,16.19,Ember
+Colombia,COL,Gas,2024,18.57,Ember
+Colombia,COL,Gas,2025,11.89,Ember
+Colombia,COL,Coal,2016,6.18,Ember
+Colombia,COL,Coal,2017,3.15,Ember
+Colombia,COL,Coal,2018,4.52,Ember
+Colombia,COL,Coal,2019,8.13,Ember
+Colombia,COL,Coal,2020,9.12,Ember
+Colombia,COL,Coal,2021,4.44,Ember
+Colombia,COL,Coal,2022,5.01,Ember
+Colombia,COL,Coal,2023,9.22,Ember
+Colombia,COL,Coal,2024,10.85,Ember
+Colombia,COL,Coal,2025,5.02,Ember
+Colombia,COL,Other fossil,2016,4.11,Ember
+Colombia,COL,Other fossil,2017,2.24,Ember
+Colombia,COL,Other fossil,2018,2.37,Ember
+Colombia,COL,Other fossil,2019,2.75,Ember
+Colombia,COL,Other fossil,2020,2.65,Ember
+Colombia,COL,Other fossil,2021,2.83,Ember
+Colombia,COL,Other fossil,2022,2.75,Ember
+Colombia,COL,Other fossil,2023,3.23,Ember
+Colombia,COL,Other fossil,2024,5.17,Ember
+Colombia,COL,Other fossil,2025,3.94,Ember
+Mexico,MEX,Solar,2016,0.25,Ember
+Mexico,MEX,Solar,2017,1.19,Ember
+Mexico,MEX,Solar,2018,3.21,Ember
+Mexico,MEX,Solar,2019,9.96,Ember
+Mexico,MEX,Solar,2020,15.84,Ember
+Mexico,MEX,Solar,2021,20.2,Ember
+Mexico,MEX,Solar,2022,20.34,Ember
+Mexico,MEX,Solar,2023,23.34,Ember
+Mexico,MEX,Solar,2024,26.3,Ember
+Mexico,MEX,Solar,2025,27.14,Ember
+Mexico,MEX,Wind,2016,10.67,Ember
+Mexico,MEX,Wind,2017,10.56,Ember
+Mexico,MEX,Wind,2018,12.56,Ember
+Mexico,MEX,Wind,2019,16.9,Ember
+Mexico,MEX,Wind,2020,19.91,Ember
+Mexico,MEX,Wind,2021,21.29,Ember
+Mexico,MEX,Wind,2022,20.53,Ember
+Mexico,MEX,Wind,2023,20.91,Ember
+Mexico,MEX,Wind,2024,20.18,Ember
+Mexico,MEX,Wind,2025,21.84,Ember
+Mexico,MEX,Hydro,2016,31.49,Ember
+Mexico,MEX,Hydro,2017,31.98,Ember
+Mexico,MEX,Hydro,2018,32.56,Ember
+Mexico,MEX,Hydro,2019,23.82,Ember
+Mexico,MEX,Hydro,2020,27.07,Ember
+Mexico,MEX,Hydro,2021,35.03,Ember
+Mexico,MEX,Hydro,2022,35.9,Ember
+Mexico,MEX,Hydro,2023,20.81,Ember
+Mexico,MEX,Hydro,2024,24.03,Ember
+Mexico,MEX,Hydro,2025,29.28,Ember
+Mexico,MEX,Bioenergy,2016,8.63,Ember
+Mexico,MEX,Bioenergy,2017,8.0,Ember
+Mexico,MEX,Bioenergy,2018,7.33,Ember
+Mexico,MEX,Bioenergy,2019,7.15,Ember
+Mexico,MEX,Bioenergy,2020,7.04,Ember
+Mexico,MEX,Bioenergy,2021,6.04,Ember
+Mexico,MEX,Bioenergy,2022,6.8,Ember
+Mexico,MEX,Bioenergy,2023,6.54,Ember
+Mexico,MEX,Bioenergy,2024,6.01,Ember
+Mexico,MEX,Bioenergy,2025,5.86,Ember
+Mexico,MEX,Nuclear,2016,10.96,Ember
+Mexico,MEX,Nuclear,2017,10.88,Ember
+Mexico,MEX,Nuclear,2018,13.56,Ember
+Mexico,MEX,Nuclear,2019,11.19,Ember
+Mexico,MEX,Nuclear,2020,11.18,Ember
+Mexico,MEX,Nuclear,2021,11.92,Ember
+Mexico,MEX,Nuclear,2022,10.85,Ember
+Mexico,MEX,Nuclear,2023,12.39,Ember
+Mexico,MEX,Nuclear,2024,12.31,Ember
+Mexico,MEX,Nuclear,2025,10.1,Ember
+Mexico,MEX,Gas,2016,199.02,Ember
+Mexico,MEX,Gas,2017,205.21,Ember
+Mexico,MEX,Gas,2018,211.33,Ember
+Mexico,MEX,Gas,2019,228.38,Ember
+Mexico,MEX,Gas,2020,241.88,Ember
+Mexico,MEX,Gas,2021,228.82,Ember
+Mexico,MEX,Gas,2022,231.52,Ember
+Mexico,MEX,Gas,2023,256.37,Ember
+Mexico,MEX,Gas,2024,275.51,Ember
+Mexico,MEX,Gas,2025,272.92,Ember
+Mexico,MEX,Coal,2016,37.73,Ember
+Mexico,MEX,Coal,2017,31.77,Ember
+Mexico,MEX,Coal,2018,30.06,Ember
+Mexico,MEX,Coal,2019,23.25,Ember
+Mexico,MEX,Coal,2020,13.74,Ember
+Mexico,MEX,Coal,2021,9.44,Ember
+Mexico,MEX,Coal,2022,14.97,Ember
+Mexico,MEX,Coal,2023,15.31,Ember
+Mexico,MEX,Coal,2024,14.01,Ember
+Mexico,MEX,Coal,2025,12.92,Ember
+Mexico,MEX,Other fossil,2016,28.2,Ember
+Mexico,MEX,Other fossil,2017,31.79,Ember
+Mexico,MEX,Other fossil,2018,29.02,Ember
+Mexico,MEX,Other fossil,2019,28.42,Ember
+Mexico,MEX,Other fossil,2020,16.58,Ember
+Mexico,MEX,Other fossil,2021,25.27,Ember
+Mexico,MEX,Other fossil,2022,27.06,Ember
+Mexico,MEX,Other fossil,2023,29.42,Ember
+Mexico,MEX,Other fossil,2024,9.71,Ember
+Mexico,MEX,Other fossil,2025,9.66,Ember
+Ethiopia,ETH,Solar,2016,0.02,Ember
+Ethiopia,ETH,Solar,2017,0.02,Ember
+Ethiopia,ETH,Solar,2018,0.02,Ember
+Ethiopia,ETH,Solar,2019,0.02,Ember
+Ethiopia,ETH,Solar,2020,0.03,Ember
+Ethiopia,ETH,Solar,2021,0.03,Ember
+Ethiopia,ETH,Solar,2022,0.04,Ember
+Ethiopia,ETH,Solar,2023,0.04,Ember
+Ethiopia,ETH,Solar,2024,0.04,Ember
+Ethiopia,ETH,Solar,2025,0.04,Ember
+Ethiopia,ETH,Wind,2016,0.78,Ember
+Ethiopia,ETH,Wind,2017,0.53,Ember
+Ethiopia,ETH,Wind,2018,0.53,Ember
+Ethiopia,ETH,Wind,2019,0.85,Ember
+Ethiopia,ETH,Wind,2020,0.61,Ember
+Ethiopia,ETH,Wind,2021,0.82,Ember
+Ethiopia,ETH,Wind,2022,0.56,Ember
+Ethiopia,ETH,Wind,2023,0.56,Ember
+Ethiopia,ETH,Wind,2024,0.7,Ember
+Ethiopia,ETH,Wind,2025,1.1,Ember
+Ethiopia,ETH,Hydro,2016,11.64,Ember
+Ethiopia,ETH,Hydro,2017,12.55,Ember
+Ethiopia,ETH,Hydro,2018,13.65,Ember
+Ethiopia,ETH,Hydro,2019,14.4,Ember
+Ethiopia,ETH,Hydro,2020,14.94,Ember
+Ethiopia,ETH,Hydro,2021,14.91,Ember
+Ethiopia,ETH,Hydro,2022,16.77,Ember
+Ethiopia,ETH,Hydro,2023,17.13,Ember
+Ethiopia,ETH,Hydro,2024,24.42,Ember
+Ethiopia,ETH,Hydro,2025,32.19,Ember
+Ethiopia,ETH,Bioenergy,2016,0.03,Ember
+Ethiopia,ETH,Bioenergy,2017,0.02,Ember
+Ethiopia,ETH,Bioenergy,2018,0.03,Ember
+Ethiopia,ETH,Bioenergy,2019,0.03,Ember
+Ethiopia,ETH,Bioenergy,2020,0.03,Ember
+Ethiopia,ETH,Bioenergy,2021,0.02,Ember
+Ethiopia,ETH,Bioenergy,2022,0.01,Ember
+Ethiopia,ETH,Bioenergy,2023,0.01,Ember
+Ethiopia,ETH,Bioenergy,2024,0.01,Ember
+Ethiopia,ETH,Bioenergy,2025,0.01,Ember
+Ethiopia,ETH,Other renewables,2016,0.0,Ember
+Ethiopia,ETH,Other renewables,2017,0.0,Ember
+Ethiopia,ETH,Other renewables,2018,0.0,Ember
+Ethiopia,ETH,Other renewables,2019,0.0,Ember
+Ethiopia,ETH,Other renewables,2020,0.0,Ember
+Ethiopia,ETH,Other renewables,2021,0.0,Ember
+Ethiopia,ETH,Other renewables,2022,0.03,Ember
+Ethiopia,ETH,Other renewables,2023,0.03,Ember
+Ethiopia,ETH,Other renewables,2024,0.03,Ember
+Ethiopia,ETH,Other renewables,2025,0.03,Ember
+Ethiopia,ETH,Nuclear,2016,0.0,Ember
+Ethiopia,ETH,Nuclear,2017,0.0,Ember
+Ethiopia,ETH,Nuclear,2018,0.0,Ember
+Ethiopia,ETH,Nuclear,2019,0.0,Ember
+Ethiopia,ETH,Nuclear,2020,0.0,Ember
+Ethiopia,ETH,Nuclear,2021,0.0,Ember
+Ethiopia,ETH,Nuclear,2022,0.0,Ember
+Ethiopia,ETH,Nuclear,2023,0.0,Ember
+Ethiopia,ETH,Nuclear,2024,0.0,Ember
+Ethiopia,ETH,Nuclear,2025,0.0,Ember
+Ethiopia,ETH,Gas,2016,0.0,Ember
+Ethiopia,ETH,Gas,2017,0.0,Ember
+Ethiopia,ETH,Gas,2018,0.0,Ember
+Ethiopia,ETH,Gas,2019,0.0,Ember
+Ethiopia,ETH,Gas,2020,0.0,Ember
+Ethiopia,ETH,Gas,2021,0.0,Ember
+Ethiopia,ETH,Gas,2022,0.0,Ember
+Ethiopia,ETH,Gas,2023,0.0,Ember
+Ethiopia,ETH,Gas,2024,0.0,Ember
+Ethiopia,ETH,Gas,2025,0.0,Ember
+Ethiopia,ETH,Coal,2016,0.0,Ember
+Ethiopia,ETH,Coal,2017,0.0,Ember
+Ethiopia,ETH,Coal,2018,0.0,Ember
+Ethiopia,ETH,Coal,2019,0.0,Ember
+Ethiopia,ETH,Coal,2020,0.0,Ember
+Ethiopia,ETH,Coal,2021,0.0,Ember
+Ethiopia,ETH,Coal,2022,0.0,Ember
+Ethiopia,ETH,Coal,2023,0.0,Ember
+Ethiopia,ETH,Coal,2024,0.0,Ember
+Ethiopia,ETH,Coal,2025,0.0,Ember
+Ethiopia,ETH,Other fossil,2016,0.0,Ember
+Ethiopia,ETH,Other fossil,2017,0.0,Ember
+Ethiopia,ETH,Other fossil,2018,0.0,Ember
+Ethiopia,ETH,Other fossil,2019,0.01,Ember
+Ethiopia,ETH,Other fossil,2020,0.01,Ember
+Ethiopia,ETH,Other fossil,2021,0.0,Ember
+Ethiopia,ETH,Other fossil,2022,0.0,Ember
+Ethiopia,ETH,Other fossil,2023,0.0,Ember
+Ethiopia,ETH,Other fossil,2024,0.0,Ember
+Ethiopia,ETH,Other fossil,2025,0.0,Ember
+Ghana,GHA,Solar,2016,0.03,Ember
+Ghana,GHA,Solar,2017,0.03,Ember
+Ghana,GHA,Solar,2018,0.03,Ember
+Ghana,GHA,Solar,2019,0.05,Ember
+Ghana,GHA,Solar,2020,0.06,Ember
+Ghana,GHA,Solar,2021,0.13,Ember
+Ghana,GHA,Solar,2022,0.16,Ember
+Ghana,GHA,Solar,2023,0.15,Ember
+Ghana,GHA,Solar,2024,0.17,Ember
+Ghana,GHA,Wind,2016,0.0,Ember
+Ghana,GHA,Wind,2017,0.0,Ember
+Ghana,GHA,Wind,2018,0.0,Ember
+Ghana,GHA,Wind,2019,0.0,Ember
+Ghana,GHA,Wind,2020,0.0,Ember
+Ghana,GHA,Wind,2021,0.0,Ember
+Ghana,GHA,Wind,2022,0.0,Ember
+Ghana,GHA,Wind,2023,0.0,Ember
+Ghana,GHA,Wind,2024,0.0,Ember
+Ghana,GHA,Hydro,2016,5.51,Ember
+Ghana,GHA,Hydro,2017,5.62,Ember
+Ghana,GHA,Hydro,2018,6.02,Ember
+Ghana,GHA,Hydro,2019,7.25,Ember
+Ghana,GHA,Hydro,2020,7.29,Ember
+Ghana,GHA,Hydro,2021,7.53,Ember
+Ghana,GHA,Hydro,2022,8.19,Ember
+Ghana,GHA,Hydro,2023,9.19,Ember
+Ghana,GHA,Hydro,2024,8.6,Ember
+Ghana,GHA,Bioenergy,2016,0.02,Ember
+Ghana,GHA,Bioenergy,2017,0.02,Ember
+Ghana,GHA,Bioenergy,2018,0.02,Ember
+Ghana,GHA,Bioenergy,2019,0.02,Ember
+Ghana,GHA,Bioenergy,2020,0.02,Ember
+Ghana,GHA,Bioenergy,2021,0.02,Ember
+Ghana,GHA,Bioenergy,2022,0.02,Ember
+Ghana,GHA,Bioenergy,2023,0.02,Ember
+Ghana,GHA,Bioenergy,2024,0.02,Ember
+Ghana,GHA,Other renewables,2016,0.0,Ember
+Ghana,GHA,Other renewables,2017,0.0,Ember
+Ghana,GHA,Other renewables,2018,0.0,Ember
+Ghana,GHA,Other renewables,2019,0.0,Ember
+Ghana,GHA,Other renewables,2020,0.0,Ember
+Ghana,GHA,Other renewables,2021,0.0,Ember
+Ghana,GHA,Other renewables,2022,0.0,Ember
+Ghana,GHA,Other renewables,2023,0.0,Ember
+Ghana,GHA,Other renewables,2024,0.0,Ember
+Ghana,GHA,Nuclear,2016,0.0,Ember
+Ghana,GHA,Nuclear,2017,0.0,Ember
+Ghana,GHA,Nuclear,2018,0.0,Ember
+Ghana,GHA,Nuclear,2019,0.0,Ember
+Ghana,GHA,Nuclear,2020,0.0,Ember
+Ghana,GHA,Nuclear,2021,0.0,Ember
+Ghana,GHA,Nuclear,2022,0.0,Ember
+Ghana,GHA,Nuclear,2023,0.0,Ember
+Ghana,GHA,Nuclear,2024,0.0,Ember
+Ghana,GHA,Gas,2016,4.0,Ember
+Ghana,GHA,Gas,2017,3.99,Ember
+Ghana,GHA,Gas,2018,5.12,Ember
+Ghana,GHA,Gas,2019,7.19,Ember
+Ghana,GHA,Gas,2020,11.59,Ember
+Ghana,GHA,Gas,2021,13.8,Ember
+Ghana,GHA,Gas,2022,14.23,Ember
+Ghana,GHA,Gas,2023,14.39,Ember
+Ghana,GHA,Gas,2024,14.91,Ember
+Ghana,GHA,Gas,2025,13.67,Climate TRACE
+Ghana,GHA,Coal,2016,0.0,Ember
+Ghana,GHA,Coal,2017,0.0,Ember
+Ghana,GHA,Coal,2018,0.0,Ember
+Ghana,GHA,Coal,2019,0.0,Ember
+Ghana,GHA,Coal,2020,0.0,Ember
+Ghana,GHA,Coal,2021,0.0,Ember
+Ghana,GHA,Coal,2022,0.0,Ember
+Ghana,GHA,Coal,2023,0.0,Ember
+Ghana,GHA,Coal,2024,0.0,Ember
+Ghana,GHA,Other fossil,2016,3.61,Ember
+Ghana,GHA,Other fossil,2017,3.64,Ember
+Ghana,GHA,Other fossil,2018,3.72,Ember
+Ghana,GHA,Other fossil,2019,2.79,Ember
+Ghana,GHA,Other fossil,2020,0.77,Ember
+Ghana,GHA,Other fossil,2021,0.6,Ember
+Ghana,GHA,Other fossil,2022,0.62,Ember
+Ghana,GHA,Other fossil,2023,0.55,Ember
+Ghana,GHA,Other fossil,2024,0.57,Ember
+Ghana,GHA,Other fossil,2025,0.176,Climate TRACE
+Kenya,KEN,Solar,2016,0.06,Ember
+Kenya,KEN,Solar,2017,0.07,Ember
+Kenya,KEN,Solar,2018,0.09,Ember
+Kenya,KEN,Solar,2019,0.09,Ember
+Kenya,KEN,Solar,2020,0.09,Ember
+Kenya,KEN,Solar,2021,0.17,Ember
+Kenya,KEN,Solar,2022,0.42,Ember
+Kenya,KEN,Solar,2023,0.58,Ember
+Kenya,KEN,Solar,2024,0.66,Ember
+Kenya,KEN,Solar,2025,0.67,Ember
+Kenya,KEN,Wind,2016,0.06,Ember
+Kenya,KEN,Wind,2017,0.06,Ember
+Kenya,KEN,Wind,2018,0.38,Ember
+Kenya,KEN,Wind,2019,1.56,Ember
+Kenya,KEN,Wind,2020,1.33,Ember
+Kenya,KEN,Wind,2021,1.99,Ember
+Kenya,KEN,Wind,2022,2.14,Ember
+Kenya,KEN,Wind,2023,2.01,Ember
+Kenya,KEN,Wind,2024,2.17,Ember
+Kenya,KEN,Wind,2025,2.32,Ember
+Kenya,KEN,Hydro,2016,3.31,Ember
+Kenya,KEN,Hydro,2017,3.17,Ember
+Kenya,KEN,Hydro,2018,3.99,Ember
+Kenya,KEN,Hydro,2019,3.21,Ember
+Kenya,KEN,Hydro,2020,4.23,Ember
+Kenya,KEN,Hydro,2021,3.67,Ember
+Kenya,KEN,Hydro,2022,3.04,Ember
+Kenya,KEN,Hydro,2023,2.67,Ember
+Kenya,KEN,Hydro,2024,3.1,Ember
+Kenya,KEN,Hydro,2025,2.93,Ember
+Kenya,KEN,Bioenergy,2016,0.52,Ember
+Kenya,KEN,Bioenergy,2017,0.7,Ember
+Kenya,KEN,Bioenergy,2018,0.16,Ember
+Kenya,KEN,Bioenergy,2019,0.15,Ember
+Kenya,KEN,Bioenergy,2020,0.22,Ember
+Kenya,KEN,Bioenergy,2021,0.25,Ember
+Kenya,KEN,Bioenergy,2022,0.26,Ember
+Kenya,KEN,Bioenergy,2023,0.2,Ember
+Kenya,KEN,Bioenergy,2024,0.2,Ember
+Kenya,KEN,Bioenergy,2025,0.28,Ember
+Kenya,KEN,Other renewables,2016,4.69,Ember
+Kenya,KEN,Other renewables,2017,4.76,Ember
+Kenya,KEN,Other renewables,2018,5.13,Ember
+Kenya,KEN,Other renewables,2019,5.24,Ember
+Kenya,KEN,Other renewables,2020,5.06,Ember
+Kenya,KEN,Other renewables,2021,5.04,Ember
+Kenya,KEN,Other renewables,2022,5.52,Ember
+Kenya,KEN,Other renewables,2023,6.03,Ember
+Kenya,KEN,Other renewables,2024,6.0,Ember
+Kenya,KEN,Other renewables,2025,6.44,Ember
+Kenya,KEN,Nuclear,2016,0.0,Ember
+Kenya,KEN,Nuclear,2017,0.0,Ember
+Kenya,KEN,Nuclear,2018,0.0,Ember
+Kenya,KEN,Nuclear,2019,0.0,Ember
+Kenya,KEN,Nuclear,2020,0.0,Ember
+Kenya,KEN,Nuclear,2021,0.0,Ember
+Kenya,KEN,Nuclear,2022,0.0,Ember
+Kenya,KEN,Nuclear,2023,0.0,Ember
+Kenya,KEN,Nuclear,2024,0.0,Ember
+Kenya,KEN,Nuclear,2025,0.0,Ember
+Kenya,KEN,Gas,2016,0.0,Ember
+Kenya,KEN,Gas,2017,0.0,Ember
+Kenya,KEN,Gas,2018,0.0,Ember
+Kenya,KEN,Gas,2019,0.0,Ember
+Kenya,KEN,Gas,2020,0.0,Ember
+Kenya,KEN,Gas,2021,0.0,Ember
+Kenya,KEN,Gas,2022,0.0,Ember
+Kenya,KEN,Gas,2023,0.0,Ember
+Kenya,KEN,Gas,2024,0.0,Ember
+Kenya,KEN,Gas,2025,0.0,Ember
+Kenya,KEN,Coal,2016,0.0,Ember
+Kenya,KEN,Coal,2017,0.0,Ember
+Kenya,KEN,Coal,2018,0.0,Ember
+Kenya,KEN,Coal,2019,0.0,Ember
+Kenya,KEN,Coal,2020,0.0,Ember
+Kenya,KEN,Coal,2021,0.0,Ember
+Kenya,KEN,Coal,2022,0.0,Ember
+Kenya,KEN,Coal,2023,0.0,Ember
+Kenya,KEN,Coal,2024,0.0,Ember
+Kenya,KEN,Coal,2025,0.0,Ember
+Kenya,KEN,Other fossil,2016,1.04,Ember
+Kenya,KEN,Other fossil,2017,2.07,Ember
+Kenya,KEN,Other fossil,2018,1.55,Ember
+Kenya,KEN,Other fossil,2019,1.31,Ember
+Kenya,KEN,Other fossil,2020,0.75,Ember
+Kenya,KEN,Other fossil,2021,1.26,Ember
+Kenya,KEN,Other fossil,2022,1.58,Ember
+Kenya,KEN,Other fossil,2023,1.31,Ember
+Kenya,KEN,Other fossil,2024,1.13,Ember
+Kenya,KEN,Other fossil,2025,1.4,Ember
+Nigeria,NGA,Solar,2016,0.03,Ember
+Nigeria,NGA,Solar,2017,0.03,Ember
+Nigeria,NGA,Solar,2018,0.04,Ember
+Nigeria,NGA,Solar,2019,0.05,Ember
+Nigeria,NGA,Solar,2020,0.08,Ember
+Nigeria,NGA,Solar,2021,0.1,Ember
+Nigeria,NGA,Solar,2022,0.1,Ember
+Nigeria,NGA,Solar,2023,0.11,Ember
+Nigeria,NGA,Solar,2024,0.13,Ember
+Nigeria,NGA,Solar,2025,0.14,Ember
+Nigeria,NGA,Wind,2016,0.0,Ember
+Nigeria,NGA,Wind,2017,0.0,Ember
+Nigeria,NGA,Wind,2018,0.0,Ember
+Nigeria,NGA,Wind,2019,0.0,Ember
+Nigeria,NGA,Wind,2020,0.0,Ember
+Nigeria,NGA,Wind,2021,0.0,Ember
+Nigeria,NGA,Wind,2022,0.0,Ember
+Nigeria,NGA,Wind,2023,0.0,Ember
+Nigeria,NGA,Wind,2024,0.0,Ember
+Nigeria,NGA,Wind,2025,0.0,Ember
+Nigeria,NGA,Hydro,2016,8.15,Ember
+Nigeria,NGA,Hydro,2017,7.75,Ember
+Nigeria,NGA,Hydro,2018,7.7,Ember
+Nigeria,NGA,Hydro,2019,8.43,Ember
+Nigeria,NGA,Hydro,2020,7.69,Ember
+Nigeria,NGA,Hydro,2021,7.94,Ember
+Nigeria,NGA,Hydro,2022,9.23,Ember
+Nigeria,NGA,Hydro,2023,9.11,Ember
+Nigeria,NGA,Hydro,2024,9.2,Ember
+Nigeria,NGA,Hydro,2025,13.4,Ember
+Nigeria,NGA,Bioenergy,2016,0.03,Ember
+Nigeria,NGA,Bioenergy,2017,0.02,Ember
+Nigeria,NGA,Bioenergy,2018,0.03,Ember
+Nigeria,NGA,Bioenergy,2019,0.03,Ember
+Nigeria,NGA,Bioenergy,2020,0.04,Ember
+Nigeria,NGA,Bioenergy,2021,0.06,Ember
+Nigeria,NGA,Bioenergy,2022,0.06,Ember
+Nigeria,NGA,Bioenergy,2023,0.06,Ember
+Nigeria,NGA,Bioenergy,2024,0.06,Ember
+Nigeria,NGA,Bioenergy,2025,0.06,Ember
+Nigeria,NGA,Other renewables,2016,0.0,Ember
+Nigeria,NGA,Other renewables,2017,0.0,Ember
+Nigeria,NGA,Other renewables,2018,0.0,Ember
+Nigeria,NGA,Other renewables,2019,0.0,Ember
+Nigeria,NGA,Other renewables,2020,0.0,Ember
+Nigeria,NGA,Other renewables,2021,0.0,Ember
+Nigeria,NGA,Other renewables,2022,0.0,Ember
+Nigeria,NGA,Other renewables,2023,0.0,Ember
+Nigeria,NGA,Other renewables,2024,0.0,Ember
+Nigeria,NGA,Other renewables,2025,0.0,Ember
+Nigeria,NGA,Nuclear,2016,0.0,Ember
+Nigeria,NGA,Nuclear,2017,0.0,Ember
+Nigeria,NGA,Nuclear,2018,0.0,Ember
+Nigeria,NGA,Nuclear,2019,0.0,Ember
+Nigeria,NGA,Nuclear,2020,0.0,Ember
+Nigeria,NGA,Nuclear,2021,0.0,Ember
+Nigeria,NGA,Nuclear,2022,0.0,Ember
+Nigeria,NGA,Nuclear,2023,0.0,Ember
+Nigeria,NGA,Nuclear,2024,0.0,Ember
+Nigeria,NGA,Nuclear,2025,0.0,Ember
+Nigeria,NGA,Gas,2016,28.33,Ember
+Nigeria,NGA,Gas,2017,24.44,Ember
+Nigeria,NGA,Gas,2018,28.94,Ember
+Nigeria,NGA,Gas,2019,27.95,Ember
+Nigeria,NGA,Gas,2020,30.19,Ember
+Nigeria,NGA,Gas,2021,31.1,Ember
+Nigeria,NGA,Gas,2022,28.61,Ember
+Nigeria,NGA,Gas,2023,31.64,Ember
+Nigeria,NGA,Gas,2024,28.17,Ember
+Nigeria,NGA,Gas,2025,28.92,Ember
+Nigeria,NGA,Coal,2016,0.0,Ember
+Nigeria,NGA,Coal,2017,0.0,Ember
+Nigeria,NGA,Coal,2018,0.0,Ember
+Nigeria,NGA,Coal,2019,0.0,Ember
+Nigeria,NGA,Coal,2020,0.0,Ember
+Nigeria,NGA,Coal,2021,0.0,Ember
+Nigeria,NGA,Coal,2022,0.0,Ember
+Nigeria,NGA,Coal,2023,0.0,Ember
+Nigeria,NGA,Coal,2024,0.0,Ember
+Nigeria,NGA,Coal,2025,0.0,Ember
+Nigeria,NGA,Other fossil,2016,0.0,Ember
+Nigeria,NGA,Other fossil,2017,0.0,Ember
+Nigeria,NGA,Other fossil,2018,0.0,Ember
+Nigeria,NGA,Other fossil,2019,0.0,Ember
+Nigeria,NGA,Other fossil,2020,0.0,Ember
+Nigeria,NGA,Other fossil,2021,0.0,Ember
+Nigeria,NGA,Other fossil,2022,0.0,Ember
+Nigeria,NGA,Other fossil,2023,0.0,Ember
+Nigeria,NGA,Other fossil,2024,0.0,Ember
+Nigeria,NGA,Other fossil,2025,0.0,Ember
+Senegal,SEN,Solar,2016,0.01,Ember
+Senegal,SEN,Solar,2017,0.09,Ember
+Senegal,SEN,Solar,2018,0.25,Ember
+Senegal,SEN,Solar,2019,0.33,Ember
+Senegal,SEN,Solar,2020,0.38,Ember
+Senegal,SEN,Solar,2021,0.54,Ember
+Senegal,SEN,Solar,2022,0.59,Ember
+Senegal,SEN,Solar,2023,0.59,Ember
+Senegal,SEN,Solar,2024,0.68,Ember
+Senegal,SEN,Wind,2016,0.0,Ember
+Senegal,SEN,Wind,2017,0.0,Ember
+Senegal,SEN,Wind,2018,0.0,Ember
+Senegal,SEN,Wind,2019,0.02,Ember
+Senegal,SEN,Wind,2020,0.22,Ember
+Senegal,SEN,Wind,2021,0.4,Ember
+Senegal,SEN,Wind,2022,0.4,Ember
+Senegal,SEN,Wind,2023,0.38,Ember
+Senegal,SEN,Wind,2024,0.41,Ember
+Senegal,SEN,Hydro,2016,0.36,Ember
+Senegal,SEN,Hydro,2017,0.36,Ember
+Senegal,SEN,Hydro,2018,0.36,Ember
+Senegal,SEN,Hydro,2019,0.31,Ember
+Senegal,SEN,Hydro,2020,0.31,Ember
+Senegal,SEN,Hydro,2021,0.31,Ember
+Senegal,SEN,Hydro,2022,0.31,Ember
+Senegal,SEN,Hydro,2023,0.31,Ember
+Senegal,SEN,Hydro,2024,0.31,Ember
+Senegal,SEN,Bioenergy,2016,0.06,Ember
+Senegal,SEN,Bioenergy,2017,0.08,Ember
+Senegal,SEN,Bioenergy,2018,0.09,Ember
+Senegal,SEN,Bioenergy,2019,0.12,Ember
+Senegal,SEN,Bioenergy,2020,0.11,Ember
+Senegal,SEN,Bioenergy,2021,0.1,Ember
+Senegal,SEN,Bioenergy,2022,0.11,Ember
+Senegal,SEN,Bioenergy,2023,0.11,Ember
+Senegal,SEN,Bioenergy,2024,0.11,Ember
+Senegal,SEN,Bioenergy,2025,0.046,Climate TRACE
+Senegal,SEN,Other renewables,2016,0.0,Ember
+Senegal,SEN,Other renewables,2017,0.0,Ember
+Senegal,SEN,Other renewables,2018,0.0,Ember
+Senegal,SEN,Other renewables,2019,0.0,Ember
+Senegal,SEN,Other renewables,2020,0.0,Ember
+Senegal,SEN,Other renewables,2021,0.0,Ember
+Senegal,SEN,Other renewables,2022,0.0,Ember
+Senegal,SEN,Other renewables,2023,0.0,Ember
+Senegal,SEN,Other renewables,2024,0.0,Ember
+Senegal,SEN,Nuclear,2016,0.0,Ember
+Senegal,SEN,Nuclear,2017,0.0,Ember
+Senegal,SEN,Nuclear,2018,0.0,Ember
+Senegal,SEN,Nuclear,2019,0.0,Ember
+Senegal,SEN,Nuclear,2020,0.0,Ember
+Senegal,SEN,Nuclear,2021,0.0,Ember
+Senegal,SEN,Nuclear,2022,0.0,Ember
+Senegal,SEN,Nuclear,2023,0.0,Ember
+Senegal,SEN,Nuclear,2024,0.0,Ember
+Senegal,SEN,Gas,2016,0.08,Ember
+Senegal,SEN,Gas,2017,0.06,Ember
+Senegal,SEN,Gas,2018,0.04,Ember
+Senegal,SEN,Gas,2019,0.06,Ember
+Senegal,SEN,Gas,2020,0.05,Ember
+Senegal,SEN,Gas,2021,0.02,Ember
+Senegal,SEN,Gas,2022,0.02,Ember
+Senegal,SEN,Gas,2023,0.02,Ember
+Senegal,SEN,Gas,2024,0.02,Ember
+Senegal,SEN,Gas,2025,0.019,Climate TRACE
+Senegal,SEN,Coal,2016,0.39,Ember
+Senegal,SEN,Coal,2017,0.31,Ember
+Senegal,SEN,Coal,2018,0.49,Ember
+Senegal,SEN,Coal,2019,0.76,Ember
+Senegal,SEN,Coal,2020,0.15,Ember
+Senegal,SEN,Coal,2021,0.4,Ember
+Senegal,SEN,Coal,2022,0.47,Ember
+Senegal,SEN,Coal,2023,0.09,Ember
+Senegal,SEN,Coal,2024,0.1,Ember
+Senegal,SEN,Coal,2025,0.433,Climate TRACE
+Senegal,SEN,Other fossil,2016,3.88,Ember
+Senegal,SEN,Other fossil,2017,3.82,Ember
+Senegal,SEN,Other fossil,2018,3.71,Ember
+Senegal,SEN,Other fossil,2019,4.22,Ember
+Senegal,SEN,Other fossil,2020,4.84,Ember
+Senegal,SEN,Other fossil,2021,4.89,Ember
+Senegal,SEN,Other fossil,2022,5.26,Ember
+Senegal,SEN,Other fossil,2023,6.7,Ember
+Senegal,SEN,Other fossil,2024,6.0,Ember
+Senegal,SEN,Other fossil,2025,3.589,Climate TRACE
+South Africa,ZAF,Solar,2016,3.01,Ember
+South Africa,ZAF,Solar,2017,3.94,Ember
+South Africa,ZAF,Solar,2018,4.54,Ember
+South Africa,ZAF,Solar,2019,5.4,Ember
+South Africa,ZAF,Solar,2020,6.98,Ember
+South Africa,ZAF,Solar,2021,7.84,Ember
+South Africa,ZAF,Solar,2022,10.44,Ember
+South Africa,ZAF,Solar,2023,14.8,Ember
+South Africa,ZAF,Solar,2024,18.27,Ember
+South Africa,ZAF,Solar,2025,19.47,Ember
+South Africa,ZAF,Wind,2016,4.21,Ember
+South Africa,ZAF,Wind,2017,7.02,Ember
+South Africa,ZAF,Wind,2018,6.41,Ember
+South Africa,ZAF,Wind,2019,6.63,Ember
+South Africa,ZAF,Wind,2020,6.41,Ember
+South Africa,ZAF,Wind,2021,8.65,Ember
+South Africa,ZAF,Wind,2022,9.7,Ember
+South Africa,ZAF,Wind,2023,11.6,Ember
+South Africa,ZAF,Wind,2024,11.1,Ember
+South Africa,ZAF,Wind,2025,11.3,Ember
+South Africa,ZAF,Hydro,2016,0.62,Ember
+South Africa,ZAF,Hydro,2017,0.78,Ember
+South Africa,ZAF,Hydro,2018,1.1,Ember
+South Africa,ZAF,Hydro,2019,0.74,Ember
+South Africa,ZAF,Hydro,2020,1.47,Ember
+South Africa,ZAF,Hydro,2021,2.02,Ember
+South Africa,ZAF,Hydro,2022,3.1,Ember
+South Africa,ZAF,Hydro,2023,2.0,Ember
+South Africa,ZAF,Hydro,2024,1.1,Ember
+South Africa,ZAF,Hydro,2025,1.82,Ember
+South Africa,ZAF,Bioenergy,2016,0.33,Ember
+South Africa,ZAF,Bioenergy,2017,0.39,Ember
+South Africa,ZAF,Bioenergy,2018,0.43,Ember
+South Africa,ZAF,Bioenergy,2019,0.43,Ember
+South Africa,ZAF,Bioenergy,2020,0.41,Ember
+South Africa,ZAF,Bioenergy,2021,0.41,Ember
+South Africa,ZAF,Bioenergy,2022,0.36,Ember
+South Africa,ZAF,Bioenergy,2023,0.47,Ember
+South Africa,ZAF,Bioenergy,2024,0.47,Ember
+South Africa,ZAF,Bioenergy,2025,0.43,Ember
+South Africa,ZAF,Nuclear,2016,15.03,Ember
+South Africa,ZAF,Nuclear,2017,14.19,Ember
+South Africa,ZAF,Nuclear,2018,11.58,Ember
+South Africa,ZAF,Nuclear,2019,13.25,Ember
+South Africa,ZAF,Nuclear,2020,9.9,Ember
+South Africa,ZAF,Nuclear,2021,12.35,Ember
+South Africa,ZAF,Nuclear,2022,10.1,Ember
+South Africa,ZAF,Nuclear,2023,8.1,Ember
+South Africa,ZAF,Nuclear,2024,7.8,Ember
+South Africa,ZAF,Nuclear,2025,10.21,Ember
+South Africa,ZAF,Gas,2016,0.0,Ember
+South Africa,ZAF,Gas,2017,0.0,Ember
+South Africa,ZAF,Gas,2018,0.0,Ember
+South Africa,ZAF,Gas,2019,0.0,Ember
+South Africa,ZAF,Gas,2020,0.0,Ember
+South Africa,ZAF,Gas,2021,0.0,Ember
+South Africa,ZAF,Gas,2022,0.0,Ember
+South Africa,ZAF,Gas,2023,0.0,Ember
+South Africa,ZAF,Gas,2024,0.0,Ember
+South Africa,ZAF,Gas,2025,0.0,Ember
+South Africa,ZAF,Coal,2016,229.58,Ember
+South Africa,ZAF,Coal,2017,228.7,Ember
+South Africa,ZAF,Coal,2018,231.01,Ember
+South Africa,ZAF,Coal,2019,225.26,Ember
+South Africa,ZAF,Coal,2020,214.08,Ember
+South Africa,ZAF,Coal,2021,210.92,Ember
+South Africa,ZAF,Coal,2022,201.77,Ember
+South Africa,ZAF,Coal,2023,192.29,Ember
+South Africa,ZAF,Coal,2024,206.81,Ember
+South Africa,ZAF,Coal,2025,197.51,Ember
+South Africa,ZAF,Other fossil,2016,0.03,Ember
+South Africa,ZAF,Other fossil,2017,0.12,Ember
+South Africa,ZAF,Other fossil,2018,1.23,Ember
+South Africa,ZAF,Other fossil,2019,1.36,Ember
+South Africa,ZAF,Other fossil,2020,1.49,Ember
+South Africa,ZAF,Other fossil,2021,3.27,Ember
+South Africa,ZAF,Other fossil,2022,3.68,Ember
+South Africa,ZAF,Other fossil,2023,3.68,Ember
+South Africa,ZAF,Other fossil,2024,1.94,Ember
+South Africa,ZAF,Other fossil,2025,1.94,Ember
+Tanzania,TZA,Solar,2016,0.03,Ember
+Tanzania,TZA,Solar,2017,0.04,Ember
+Tanzania,TZA,Solar,2018,0.03,Ember
+Tanzania,TZA,Solar,2019,0.03,Ember
+Tanzania,TZA,Solar,2020,0.03,Ember
+Tanzania,TZA,Solar,2021,0.03,Ember
+Tanzania,TZA,Solar,2022,0.03,Ember
+Tanzania,TZA,Solar,2023,0.03,Ember
+Tanzania,TZA,Solar,2024,0.04,Ember
+Tanzania,TZA,Wind,2016,0.0,Ember
+Tanzania,TZA,Wind,2017,0.0,Ember
+Tanzania,TZA,Wind,2018,0.0,Ember
+Tanzania,TZA,Wind,2019,0.0,Ember
+Tanzania,TZA,Wind,2020,0.0,Ember
+Tanzania,TZA,Wind,2021,0.0,Ember
+Tanzania,TZA,Wind,2022,0.0,Ember
+Tanzania,TZA,Wind,2023,0.0,Ember
+Tanzania,TZA,Wind,2024,0.0,Ember
+Tanzania,TZA,Hydro,2016,2.37,Ember
+Tanzania,TZA,Hydro,2017,2.35,Ember
+Tanzania,TZA,Hydro,2018,2.23,Ember
+Tanzania,TZA,Hydro,2019,2.48,Ember
+Tanzania,TZA,Hydro,2020,3.14,Ember
+Tanzania,TZA,Hydro,2021,3.09,Ember
+Tanzania,TZA,Hydro,2022,2.82,Ember
+Tanzania,TZA,Hydro,2023,2.7,Ember
+Tanzania,TZA,Hydro,2024,2.8,Ember
+Tanzania,TZA,Bioenergy,2016,0.07,Ember
+Tanzania,TZA,Bioenergy,2017,0.07,Ember
+Tanzania,TZA,Bioenergy,2018,0.06,Ember
+Tanzania,TZA,Bioenergy,2019,0.07,Ember
+Tanzania,TZA,Bioenergy,2020,0.07,Ember
+Tanzania,TZA,Bioenergy,2021,0.07,Ember
+Tanzania,TZA,Bioenergy,2022,0.07,Ember
+Tanzania,TZA,Bioenergy,2023,0.07,Ember
+Tanzania,TZA,Bioenergy,2024,0.07,Ember
+Tanzania,TZA,Bioenergy,2025,0.02,Climate TRACE
+Tanzania,TZA,Other renewables,2016,0.0,Ember
+Tanzania,TZA,Other renewables,2017,0.0,Ember
+Tanzania,TZA,Other renewables,2018,0.0,Ember
+Tanzania,TZA,Other renewables,2019,0.0,Ember
+Tanzania,TZA,Other renewables,2020,0.0,Ember
+Tanzania,TZA,Other renewables,2021,0.0,Ember
+Tanzania,TZA,Other renewables,2022,0.0,Ember
+Tanzania,TZA,Other renewables,2023,0.0,Ember
+Tanzania,TZA,Other renewables,2024,0.0,Ember
+Tanzania,TZA,Nuclear,2016,0.0,Ember
+Tanzania,TZA,Nuclear,2017,0.0,Ember
+Tanzania,TZA,Nuclear,2018,0.0,Ember
+Tanzania,TZA,Nuclear,2019,0.0,Ember
+Tanzania,TZA,Nuclear,2020,0.0,Ember
+Tanzania,TZA,Nuclear,2021,0.0,Ember
+Tanzania,TZA,Nuclear,2022,0.0,Ember
+Tanzania,TZA,Nuclear,2023,0.0,Ember
+Tanzania,TZA,Nuclear,2024,0.0,Ember
+Tanzania,TZA,Gas,2016,4.1,Ember
+Tanzania,TZA,Gas,2017,4.32,Ember
+Tanzania,TZA,Gas,2018,4.87,Ember
+Tanzania,TZA,Gas,2019,5.11,Ember
+Tanzania,TZA,Gas,2020,4.51,Ember
+Tanzania,TZA,Gas,2021,5.36,Ember
+Tanzania,TZA,Gas,2022,6.68,Ember
+Tanzania,TZA,Gas,2023,7.38,Ember
+Tanzania,TZA,Gas,2024,5.55,Ember
+Tanzania,TZA,Gas,2025,6.79,Climate TRACE
+Tanzania,TZA,Coal,2016,0.0,Ember
+Tanzania,TZA,Coal,2017,0.0,Ember
+Tanzania,TZA,Coal,2018,0.0,Ember
+Tanzania,TZA,Coal,2019,0.0,Ember
+Tanzania,TZA,Coal,2020,0.0,Ember
+Tanzania,TZA,Coal,2021,0.0,Ember
+Tanzania,TZA,Coal,2022,0.0,Ember
+Tanzania,TZA,Coal,2023,0.0,Ember
+Tanzania,TZA,Coal,2024,0.0,Ember
+Tanzania,TZA,Coal,2025,0.0,Climate TRACE
+Tanzania,TZA,Other fossil,2016,0.25,Ember
+Tanzania,TZA,Other fossil,2017,0.29,Ember
+Tanzania,TZA,Other fossil,2018,0.12,Ember
+Tanzania,TZA,Other fossil,2019,0.08,Ember
+Tanzania,TZA,Other fossil,2020,0.08,Ember
+Tanzania,TZA,Other fossil,2021,0.1,Ember
+Tanzania,TZA,Other fossil,2022,0.02,Ember
+Tanzania,TZA,Other fossil,2023,0.39,Ember
+Tanzania,TZA,Other fossil,2024,0.38,Ember
+Tanzania,TZA,Other fossil,2025,0.024,Climate TRACE

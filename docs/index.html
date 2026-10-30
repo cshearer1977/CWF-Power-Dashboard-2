@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CWF Annual Generation Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #6b7280;
+      --card: #f9fafb;
+      --border: #e5e7eb;
+      --gem-teal: #016b83;
+      --ct-blue: #1d4ed8;
+      --warn-bg: #fff7ed;
+      --warn-fg: #9a3412;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0; color: var(--fg); background: var(--bg); line-height: 1.45;
+    }
+    header { padding: 24px 28px 12px; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 20px; margin: 0 0 4px; color: var(--gem-teal); }
+    .subtitle { color: var(--muted); font-size: 13px; }
+    .toolbar {
+      display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+      padding: 14px 28px; border-bottom: 1px solid var(--border); background: var(--card);
+    }
+    .toolbar label { font-size: 13px; color: var(--muted); }
+    select {
+      font-size: 14px; padding: 6px 10px; border: 1px solid var(--border);
+      border-radius: 6px; background: white; color: var(--fg); min-width: 200px;
+    }
+    .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+    .seg button {
+      font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: white;
+      color: var(--fg); cursor: pointer;
+    }
+    .seg button + button { border-left: 1px solid var(--border); }
+    .seg button.on { background: var(--gem-teal); color: white; }
+    .updated { margin-left: auto; color: var(--muted); font-size: 12px; }
+    main { padding: 20px 28px 40px; display: grid; gap: 16px; }
+    .card { border: 1px solid var(--border); border-radius: 10px; background: white; padding: 14px 16px; min-width: 0; }
+    .card h2 { font-size: 14px; margin: 0 0 2px; }
+    .card .source { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+    .chart-wrap { position: relative; height: 380px; }
+    .notice {
+      background: var(--warn-bg); color: var(--warn-fg); border-radius: 8px;
+      padding: 10px 12px; font-size: 13px; margin-bottom: 10px;
+    }
+    .notice:empty { display: none; }
+    .table-scroll { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+    th, td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; }
+    thead th { color: var(--muted); font-weight: 600; }
+    tr.total td { font-weight: 600; border-top: 2px solid var(--fg); }
+    td.ct { color: var(--ct-blue); font-weight: 600; }
+    td.gap { color: #c0c4cc; }
+    th.partial { color: var(--warn-fg); }
+    .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+    .legend-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+    .legend-note .ct { color: var(--ct-blue); font-weight: 600; }
+    .hatch {
+      display: inline-block; width: 14px; height: 10px; vertical-align: -1px; margin-right: 4px;
+      background: repeating-linear-gradient(45deg, #9ca3af 0 2px, #fff 2px 4px); border: 1px solid #9ca3af;
+    }
+    .footer { padding: 16px 28px 28px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); }
+    .footer p { margin: 0 0 8px; max-width: 900px; }
+    .footer a, .card a { color: var(--gem-teal); text-decoration: none; }
+    .footer a:hover, .card a:hover { text-decoration: underline; }
+    .empty { padding: 40px 0; text-align: center; color: var(--muted); font-size: 13px; }
+    @media (max-width: 640px) {
+      header, .toolbar, main, .footer { padding-left: 16px; padding-right: 16px; }
+      .updated { margin-left: 0; width: 100%; }
+      .chart-wrap { height: 300px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CWF Annual Generation Dashboard</h1>
+    <div class="subtitle">Electricity generation by fuel, 2016–2025, for 15 countries. Ember data, gap-filled with Climate TRACE where Ember has no value.</div>
+  </header>
+
+  <div class="toolbar">
+    <label for="country">Country</label>
+    <select id="country"></select>
+    <div class="seg" role="group" aria-label="Units">
+      <button type="button" id="mode-twh" class="on">TWh</button>
+      <button type="button" id="mode-pct">% of total</button>
+    </div>
+    <div class="updated" id="updated">Loading…</div>
+  </div>
+
+  <main id="main">
+    <section class="card">
+      <h2 id="chart-title">Generation by fuel</h2>
+      <div class="source" id="chart-src">—</div>
+      <div class="notice" id="notice"></div>
+      <div class="chart-wrap"><canvas id="gen-chart"></canvas></div>
+      <div class="legend-note"><span class="hatch"></span>Hatched segments are Climate TRACE estimates. Years marked * are incomplete; shares are not shown for them.</div>
+    </section>
+
+    <section class="card">
+      <h2>Generation (TWh)</h2>
+      <div class="source">Source: Ember. <span style="color:var(--ct-blue);font-weight:600">Blue values</span> are Climate TRACE (Ember has no value for that fuel and year). “—” = no data in either source.</div>
+      <div class="table-scroll"><table id="gen-table"></table></div>
+      <div class="legend-note" id="ct-note"></div>
+      <div class="legend-note"><a href="data/generation.csv" download>Download all countries (CSV)</a></div>
+    </section>
+  </main>
+
+  <div class="footer">
+    <p><strong>Sources.</strong>
+      <a href="https://ember-energy.org/data/yearly-electricity-data/" target="_blank" rel="noopener">Ember yearly electricity data</a> (via the Ember API) is the primary source.
+      Where Ember has no value for a fuel in a given year, the dashboard uses
+      <a href="https://climatetrace.org" target="_blank" rel="noopener">Climate TRACE</a> plant-level activity, summed by country and primary fuel.
+    </p>
+    <p><strong>Caveats.</strong> Climate TRACE models emitting power plants only (coal, gas, oil and biomass), so it cannot fill solar, wind, hydro, nuclear or other renewables, and its plant-level asset data starts in 2021.
+      Its coverage of small and captive plants can be incomplete, so filled values may understate generation. Multi-fuel plants are assigned to their primary (first-listed) fuel; oil and other fossil plants are reported as “Other fossil”.
+      Shares are not shown for years marked *, since their totals are incomplete.</p>
+    <p>Data refreshed daily by a GitHub Actions workflow.</p>
+  </div>
+
+<script>
+const FUEL_COLORS = {
+  "Solar":            "#f2b134",
+  "Wind":             "#5aa9e6",
+  "Hydro":            "#016b83",
+  "Bioenergy":        "#65bd8b",
+  "Other renewables": "#a3d9c9",
+  "Nuclear":          "#4a57a8",
+  "Gas":              "#fe4f2d",
+  "Coal":             "#3f3f46",
+  "Other fossil":     "#7f142a",
+};
+
+let chart, payload, mode = "twh";
+const patternCache = {};
+
+function hatch(color) {
+  if (patternCache[color]) return patternCache[color];
+  const c = document.createElement("canvas");
+  c.width = c.height = 8;
+  const g = c.getContext("2d");
+  g.fillStyle = "#ffffff"; g.fillRect(0, 0, 8, 8);
+  g.strokeStyle = color; g.lineWidth = 3;
+  g.beginPath(); g.moveTo(-2, 10); g.lineTo(10, -2); g.moveTo(-2, 2); g.lineTo(2, -2); g.moveTo(6, 10); g.lineTo(10, 6); g.stroke();
+  return (patternCache[color] = g.createPattern(c, "repeat"));
+}
+
+const fmt = v => v == null ? "—" : (Math.abs(v) >= 100 ? v.toFixed(1) : v.toFixed(2));
+
+function totals(c) {
+  return payload.years.map((_, i) =>
+    payload.fuels.reduce((s, f) => s + (c.values[f][i] || 0), 0));
+}
+
+function renderChart(c) {
+  const years = payload.years;
+  const tot = totals(c);
+  const labels = years.map((y, i) => c.year_status[i].status === "partial" ? y + "*" : String(y));
+  const fuels = payload.fuels.filter(f => c.values[f].some(v => v));
+
+  const datasets = fuels.map(f => {
+    const color = FUEL_COLORS[f];
+    const data = c.values[f].map((v, i) =>
+      v == null ? null
+        : mode === "pct" ? (tot[i] && c.year_status[i].status === "complete" ? (v / tot[i]) * 100 : null)
+        : v);
+    return {
+      label: f,
+      data,
+      backgroundColor: c.sources[f].map(s => s === "ct" ? hatch(color) : color),
+      borderColor: c.sources[f].map(s => s === "ct" ? color : "transparent"),
+      borderWidth: c.sources[f].map(s => s === "ct" ? 1 : 0),
+      stack: "gen",
+    };
+  });
+
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("gen-chart"), {
+    type: "bar",
+    data: { labels, datasets },
+    options: {
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      scales: {
+        x: { stacked: true, grid: { display: false } },
+        y: {
+          stacked: true, beginAtZero: true,
+          max: mode === "pct" ? 100 : undefined,
+          title: { display: true, text: mode === "pct" ? "% of total generation" : "TWh" },
+        },
+      },
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: {
+            boxWidth: 10,
+            generateLabels: ch => ch.data.datasets.map((d, i) => ({
+              text: d.label, fillStyle: FUEL_COLORS[d.label], strokeStyle: FUEL_COLORS[d.label],
+              lineWidth: 0, hidden: !ch.isDatasetVisible(i), datasetIndex: i,
+            })),
+          },
+        },
+        tooltip: {
+          itemSort: (a, b) => b.datasetIndex - a.datasetIndex,
+          filter: item => item.raw != null && item.raw !== 0,
+          callbacks: {
+            label: item => {
+              const f = item.dataset.label;
+              const src = c.sources[f][item.dataIndex] === "ct" ? " (Climate TRACE)" : "";
+              const v = mode === "pct" ? item.raw.toFixed(1) + "%" : fmt(item.raw) + " TWh";
+              return `${f}: ${v}${src}`;
+            },
+            footer: items => {
+              if (!items.length) return "";
+              const i = items[0].dataIndex;
+              const lines = ["Total: " + fmt(tot[i]) + " TWh"];
+              const st = c.year_status[i];
+              if (st.status === "partial") lines.push("Incomplete: no data for " + st.missing.join(", "));
+              return lines;
+            },
+          },
+        },
+      },
+    },
+  });
+}
+
+function renderTable(c) {
+  const years = payload.years;
+  const tot = totals(c);
+  let h = "<thead><tr><th>Fuel</th>" + years.map((y, i) =>
+    c.year_status[i].status === "partial" ? `<th class="partial" title="Incomplete year">${y}*</th>` : `<th>${y}</th>`
+  ).join("") + "</tr></thead><tbody>";
+  for (const f of payload.fuels) {
+    h += `<tr><td><span class="swatch" style="background:${FUEL_COLORS[f]}"></span>${f}</td>`;
+    c.values[f].forEach((v, i) => {
+      const ct = c.sources[f][i] === "ct";
+      const cls = ct ? "ct" : v == null ? "gap" : "";
+      const title = ct ? ' title="Climate TRACE"' : "";
+      h += `<td class="${cls}"${title}>${fmt(v)}</td>`;
+    });
+    h += "</tr>";
+  }
+  h += `<tr class="total"><td>Total</td>` + tot.map((t, i) =>
+    `<td>${c.year_status[i].status === "none" ? "—" : fmt(t)}</td>`).join("") + "</tr></tbody>";
+  document.getElementById("gen-table").innerHTML = h;
+
+  const note = document.getElementById("ct-note");
+  if (c.ct_cells.length) {
+    const parts = c.ct_cells.map(x => `${x.fuel} ${x.year} (${x.plants} plant${x.plants === 1 ? "" : "s"})`);
+    note.innerHTML = `<span class="ct">Climate TRACE values:</span> ${parts.join("; ")}. ` +
+      `Sum of plant-level annual activity from the Climate TRACE v7 API.`;
+  } else {
+    note.textContent = "All values are Ember data.";
+  }
+}
+
+function renderNotice(c) {
+  const msgs = [];
+  c.year_status.forEach((st, i) => {
+    const y = payload.years[i];
+    if (st.status === "partial")
+      msgs.push(`${y}: Ember has not yet published ${c.name}'s full data for this year; ` +
+        `${st.uses_ct ? "fossil and biomass values are Climate TRACE estimates, and " : ""}` +
+        `${st.missing.join(", ")} ${st.missing.length === 1 ? "is" : "are"} missing, so the total is understated.`);
+    else if (st.status === "none") msgs.push(`${y}: no data in Ember or Climate TRACE.`);
+  });
+  document.getElementById("notice").innerHTML = msgs.map(m => `<div>${m}</div>`).join("");
+}
+
+function render() {
+  const c = payload.countries[document.getElementById("country").value];
+  if (!c) return;
+  const usesCt = c.ct_cells.length > 0;
+  document.getElementById("chart-title").textContent =
+    `${c.name}: generation by fuel` + (mode === "pct" ? " (% of total)" : " (TWh)");
+  document.getElementById("chart-src").textContent =
+    "Source: Ember" + (usesCt ? " + Climate TRACE (hatched)" : "");
+  renderNotice(c);
+  renderChart(c);
+  renderTable(c);
+}
+
+function setMode(m) {
+  mode = m;
+  document.getElementById("mode-twh").classList.toggle("on", m === "twh");
+  document.getElementById("mode-pct").classList.toggle("on", m === "pct");
+  render();
+}
+
+async function load() {
+  try {
+    const resp = await fetch("data/generation.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    payload = await resp.json();
+  } catch (e) {
+    document.getElementById("updated").textContent = "Data not yet generated.";
+    document.getElementById("main").innerHTML =
+      '<div class="card"><div class="empty">No data file at <code>data/generation.json</code>. ' +
+      "Run the fetch scripts or wait for the first GitHub Actions run.</div></div>";
+    return;
+  }
+  const select = document.getElementById("country");
+  Object.entries(payload.countries)
+    .sort((a, b) => a[1].name.localeCompare(b[1].name))
+    .forEach(([iso3, c]) => select.add(new Option(c.name, iso3)));
+  const d = new Date(payload.updated_at);
+  document.getElementById("updated").textContent =
+    "Updated " + (isNaN(d) ? payload.updated_at : d.toISOString().slice(0, 16).replace("T", " ") + " UTC");
+  select.addEventListener("change", render);
+  document.getElementById("mode-twh").addEventListener("click", () => setMode("twh"));
+  document.getElementById("mode-pct").addEventListener("click", () => setMode("pct"));
+  render();
+}
+
+load();
+</script>
+</body>
+</html>

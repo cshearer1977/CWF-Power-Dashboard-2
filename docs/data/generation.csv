@@ -82,13 +82,13 @@ Indonesia,IDN,Other fossil,2025,16.91,Ember
 Pakistan,PAK,Solar,2016,0.68,Ember
 Pakistan,PAK,Solar,2017,0.92,Ember
 Pakistan,PAK,Solar,2018,0.92,Ember
-Pakistan,PAK,Solar,2019,2.61,Ember
-Pakistan,PAK,Solar,2020,4.1,Ember
-Pakistan,PAK,Solar,2021,5.79,Ember
-Pakistan,PAK,Solar,2022,7.72,Ember
-Pakistan,PAK,Solar,2023,11.35,Ember
-Pakistan,PAK,Solar,2024,19.83,Ember
-Pakistan,PAK,Solar,2025,36.6,Ember
+Pakistan,PAK,Solar,2019,2.57,Ember
+Pakistan,PAK,Solar,2020,4.03,Ember
+Pakistan,PAK,Solar,2021,5.72,Ember
+Pakistan,PAK,Solar,2022,7.74,Ember
+Pakistan,PAK,Solar,2023,11.48,Ember
+Pakistan,PAK,Solar,2024,20.17,Ember
+Pakistan,PAK,Solar,2025,36.22,Ember
 Pakistan,PAK,Wind,2016,1.33,Ember
 Pakistan,PAK,Wind,2017,2.1,Ember
 Pakistan,PAK,Wind,2018,3.16,Ember
@@ -160,15 +160,15 @@ Pakistan,PAK,Other fossil,2023,5.11,Ember
 Pakistan,PAK,Other fossil,2024,3.26,Ember
 Pakistan,PAK,Other fossil,2025,2.59,Ember
 Philippines,PHL,Solar,2016,1.1,Ember
-Philippines,PHL,Solar,2017,1.2,Ember
-Philippines,PHL,Solar,2018,1.25,Ember
-Philippines,PHL,Solar,2019,1.25,Ember
-Philippines,PHL,Solar,2020,1.37,Ember
-Philippines,PHL,Solar,2021,1.47,Ember
-Philippines,PHL,Solar,2022,1.82,Ember
-Philippines,PHL,Solar,2023,1.82,Ember
-Philippines,PHL,Solar,2024,2.08,Ember
-Philippines,PHL,Solar,2025,3.0,Ember
+Philippines,PHL,Solar,2017,1.26,Ember
+Philippines,PHL,Solar,2018,1.37,Ember
+Philippines,PHL,Solar,2019,1.58,Ember
+Philippines,PHL,Solar,2020,1.88,Ember
+Philippines,PHL,Solar,2021,2.22,Ember
+Philippines,PHL,Solar,2022,2.9,Ember
+Philippines,PHL,Solar,2023,4.68,Ember
+Philippines,PHL,Solar,2024,7.04,Ember
+Philippines,PHL,Solar,2025,9.19,Ember
 Philippines,PHL,Wind,2016,0.98,Ember
 Philippines,PHL,Wind,2017,1.09,Ember
 Philippines,PHL,Wind,2018,1.15,Ember
@@ -479,16 +479,16 @@ Brazil,BRA,Other fossil,2022,12.2,Ember
 Brazil,BRA,Other fossil,2023,11.53,Ember
 Brazil,BRA,Other fossil,2024,12.1,Ember
 Brazil,BRA,Other fossil,2025,9.51,Ember
-Colombia,COL,Solar,2016,0.01,Ember
+Colombia,COL,Solar,2016,0.0,Ember
 Colombia,COL,Solar,2017,0.01,Ember
-Colombia,COL,Solar,2018,0.02,Ember
-Colombia,COL,Solar,2019,0.13,Ember
-Colombia,COL,Solar,2020,0.19,Ember
-Colombia,COL,Solar,2021,0.33,Ember
-Colombia,COL,Solar,2022,0.63,Ember
-Colombia,COL,Solar,2023,1.33,Ember
-Colombia,COL,Solar,2024,3.43,Ember
-Colombia,COL,Solar,2025,4.6,Ember
+Colombia,COL,Solar,2018,0.04,Ember
+Colombia,COL,Solar,2019,0.21,Ember
+Colombia,COL,Solar,2020,0.36,Ember
+Colombia,COL,Solar,2021,0.52,Ember
+Colombia,COL,Solar,2022,0.81,Ember
+Colombia,COL,Solar,2023,1.67,Ember
+Colombia,COL,Solar,2024,3.41,Ember
+Colombia,COL,Solar,2025,5.4,Ember
 Colombia,COL,Wind,2016,0.05,Ember
 Colombia,COL,Wind,2017,0.0,Ember
 Colombia,COL,Wind,2018,0.04,Ember
@@ -654,11 +654,11 @@ Ethiopia,ETH,Solar,2017,0.02,Ember
 Ethiopia,ETH,Solar,2018,0.02,Ember
 Ethiopia,ETH,Solar,2019,0.02,Ember
 Ethiopia,ETH,Solar,2020,0.03,Ember
-Ethiopia,ETH,Solar,2021,0.03,Ember
+Ethiopia,ETH,Solar,2021,0.04,Ember
 Ethiopia,ETH,Solar,2022,0.04,Ember
-Ethiopia,ETH,Solar,2023,0.04,Ember
-Ethiopia,ETH,Solar,2024,0.04,Ember
-Ethiopia,ETH,Solar,2025,0.04,Ember
+Ethiopia,ETH,Solar,2023,0.06,Ember
+Ethiopia,ETH,Solar,2024,0.08,Ember
+Ethiopia,ETH,Solar,2025,0.14,Ember
 Ethiopia,ETH,Wind,2016,0.78,Ember
 Ethiopia,ETH,Wind,2017,0.53,Ember
 Ethiopia,ETH,Wind,2018,0.53,Ember
@@ -739,15 +739,15 @@ Ethiopia,ETH,Other fossil,2022,0.0,Ember
 Ethiopia,ETH,Other fossil,2023,0.0,Ember
 Ethiopia,ETH,Other fossil,2024,0.0,Ember
 Ethiopia,ETH,Other fossil,2025,0.0,Ember
-Ghana,GHA,Solar,2016,0.03,Ember
-Ghana,GHA,Solar,2017,0.03,Ember
-Ghana,GHA,Solar,2018,0.03,Ember
-Ghana,GHA,Solar,2019,0.05,Ember
-Ghana,GHA,Solar,2020,0.06,Ember
-Ghana,GHA,Solar,2021,0.13,Ember
-Ghana,GHA,Solar,2022,0.16,Ember
-Ghana,GHA,Solar,2023,0.15,Ember
-Ghana,GHA,Solar,2024,0.17,Ember
+Ghana,GHA,Solar,2016,0.04,Ember
+Ghana,GHA,Solar,2017,0.05,Ember
+Ghana,GHA,Solar,2018,0.09,Ember
+Ghana,GHA,Solar,2019,0.12,Ember
+Ghana,GHA,Solar,2020,0.21,Ember
+Ghana,GHA,Solar,2021,0.32,Ember
+Ghana,GHA,Solar,2022,0.38,Ember
+Ghana,GHA,Solar,2023,0.48,Ember
+Ghana,GHA,Solar,2024,0.62,Ember
 Ghana,GHA,Wind,2016,0.0,Ember
 Ghana,GHA,Wind,2017,0.0,Ember
 Ghana,GHA,Wind,2018,0.0,Ember
@@ -825,13 +825,13 @@ Ghana,GHA,Other fossil,2025,0.176,Climate TRACE
 Kenya,KEN,Solar,2016,0.06,Ember
 Kenya,KEN,Solar,2017,0.07,Ember
 Kenya,KEN,Solar,2018,0.09,Ember
-Kenya,KEN,Solar,2019,0.09,Ember
-Kenya,KEN,Solar,2020,0.09,Ember
-Kenya,KEN,Solar,2021,0.17,Ember
-Kenya,KEN,Solar,2022,0.42,Ember
-Kenya,KEN,Solar,2023,0.58,Ember
-Kenya,KEN,Solar,2024,0.66,Ember
-Kenya,KEN,Solar,2025,0.67,Ember
+Kenya,KEN,Solar,2019,0.34,Ember
+Kenya,KEN,Solar,2020,0.48,Ember
+Kenya,KEN,Solar,2021,0.69,Ember
+Kenya,KEN,Solar,2022,1.03,Ember
+Kenya,KEN,Solar,2023,1.33,Ember
+Kenya,KEN,Solar,2024,1.53,Ember
+Kenya,KEN,Solar,2025,1.93,Ember
 Kenya,KEN,Wind,2016,0.06,Ember
 Kenya,KEN,Wind,2017,0.06,Ember
 Kenya,KEN,Wind,2018,0.38,Ember
@@ -914,14 +914,14 @@ Kenya,KEN,Other fossil,2024,1.13,Ember
 Kenya,KEN,Other fossil,2025,1.4,Ember
 Nigeria,NGA,Solar,2016,0.03,Ember
 Nigeria,NGA,Solar,2017,0.03,Ember
-Nigeria,NGA,Solar,2018,0.04,Ember
-Nigeria,NGA,Solar,2019,0.05,Ember
-Nigeria,NGA,Solar,2020,0.08,Ember
-Nigeria,NGA,Solar,2021,0.1,Ember
-Nigeria,NGA,Solar,2022,0.1,Ember
-Nigeria,NGA,Solar,2023,0.11,Ember
-Nigeria,NGA,Solar,2024,0.13,Ember
-Nigeria,NGA,Solar,2025,0.14,Ember
+Nigeria,NGA,Solar,2018,0.07,Ember
+Nigeria,NGA,Solar,2019,0.15,Ember
+Nigeria,NGA,Solar,2020,0.31,Ember
+Nigeria,NGA,Solar,2021,0.51,Ember
+Nigeria,NGA,Solar,2022,0.7,Ember
+Nigeria,NGA,Solar,2023,1.1,Ember
+Nigeria,NGA,Solar,2024,1.88,Ember
+Nigeria,NGA,Solar,2025,3.18,Ember
 Nigeria,NGA,Wind,2016,0.0,Ember
 Nigeria,NGA,Wind,2017,0.0,Ember
 Nigeria,NGA,Wind,2018,0.0,Ember
@@ -1009,8 +1009,8 @@ Senegal,SEN,Solar,2019,0.33,Ember
 Senegal,SEN,Solar,2020,0.38,Ember
 Senegal,SEN,Solar,2021,0.54,Ember
 Senegal,SEN,Solar,2022,0.59,Ember
-Senegal,SEN,Solar,2023,0.59,Ember
-Senegal,SEN,Solar,2024,0.68,Ember
+Senegal,SEN,Solar,2023,0.94,Ember
+Senegal,SEN,Solar,2024,1.23,Ember
 Senegal,SEN,Wind,2016,0.0,Ember
 Senegal,SEN,Wind,2017,0.0,Ember
 Senegal,SEN,Wind,2018,0.0,Ember
@@ -1126,7 +1126,7 @@ South Africa,ZAF,Bioenergy,2021,0.41,Ember
 South Africa,ZAF,Bioenergy,2022,0.36,Ember
 South Africa,ZAF,Bioenergy,2023,0.47,Ember
 South Africa,ZAF,Bioenergy,2024,0.47,Ember
-South Africa,ZAF,Bioenergy,2025,0.43,Ember
+South Africa,ZAF,Bioenergy,2025,0.47,Ember
 South Africa,ZAF,Nuclear,2016,15.03,Ember
 South Africa,ZAF,Nuclear,2017,14.19,Ember
 South Africa,ZAF,Nuclear,2018,11.58,Ember
@@ -1167,15 +1167,15 @@ South Africa,ZAF,Other fossil,2022,3.68,Ember
 South Africa,ZAF,Other fossil,2023,3.68,Ember
 South Africa,ZAF,Other fossil,2024,1.94,Ember
 South Africa,ZAF,Other fossil,2025,1.94,Ember
-Tanzania,TZA,Solar,2016,0.03,Ember
-Tanzania,TZA,Solar,2017,0.04,Ember
-Tanzania,TZA,Solar,2018,0.03,Ember
-Tanzania,TZA,Solar,2019,0.03,Ember
-Tanzania,TZA,Solar,2020,0.03,Ember
-Tanzania,TZA,Solar,2021,0.03,Ember
-Tanzania,TZA,Solar,2022,0.03,Ember
-Tanzania,TZA,Solar,2023,0.03,Ember
-Tanzania,TZA,Solar,2024,0.04,Ember
+Tanzania,TZA,Solar,2016,0.01,Ember
+Tanzania,TZA,Solar,2017,0.01,Ember
+Tanzania,TZA,Solar,2018,0.05,Ember
+Tanzania,TZA,Solar,2019,0.12,Ember
+Tanzania,TZA,Solar,2020,0.19,Ember
+Tanzania,TZA,Solar,2021,0.28,Ember
+Tanzania,TZA,Solar,2022,0.38,Ember
+Tanzania,TZA,Solar,2023,0.42,Ember
+Tanzania,TZA,Solar,2024,0.6,Ember
 Tanzania,TZA,Wind,2016,0.0,Ember
 Tanzania,TZA,Wind,2017,0.0,Ember
 Tanzania,TZA,Wind,2018,0.0,Ember

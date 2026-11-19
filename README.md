@@ -2,7 +2,8 @@
 
 Static dashboard of annual electricity generation by fuel (TWh), 2016–2025, for
 Indonesia, Pakistan, Philippines, Thailand, Vietnam, Brazil, Colombia, Mexico,
-Ethiopia, Ghana, Kenya, Nigeria, Senegal, South Africa and Tanzania.
+Ethiopia, Ghana, Kenya, Nigeria, Senegal, South Africa and Tanzania: 
+https://cshearer1977.github.io/CWF-Power-Dashboard-2/
 
 Fuels (same rows as the CWF underlying-data spreadsheet): Solar, Wind, Hydro,
 Bioenergy, Other renewables, Nuclear, Gas, Coal, Other fossil.
@@ -19,8 +20,8 @@ TRACE; otherwise leave blank. Climate TRACE values are hatched in the chart,
 shown in **blue** in the table, and listed (with plant counts) under the table.
 
 Limits of the Climate TRACE fill:
-- Covers emitting plants only (coal, gas, oil, biomass) — it cannot fill solar,
-  wind, hydro, nuclear or other renewables.
+- Covers emitting plants only (coal, gas, oil, biomass) — solar,
+  wind, hydro, nuclear and other renewables not available.
 - Plant-level asset data starts in 2021.
 - Coverage of small/captive plants can be incomplete, so filled values may
   understate generation.
@@ -58,13 +59,6 @@ python -m http.server --directory docs 8000   # open http://localhost:8000
 `python scripts/fetch_ember.py --bulk-csv` reads Ember's public bulk CSV instead
 of the API (same dataset) for testing without a key. The workflow always uses
 the API.
-
-## GitHub setup
-
-1. Push this folder to a new GitHub repo.
-2. **Settings → Secrets and variables → Actions**: add secret `EMBER_API_KEY`.
-3. **Settings → Pages**: Source = **GitHub Actions**.
-4. **Actions → Daily data refresh → Run workflow** for the first build.
 
 ## Changing scope
 
